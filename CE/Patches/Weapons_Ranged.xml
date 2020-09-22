@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Combat Extended</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+
+                <!--<li Class="PatchOperationReplace">
+                    <xpath>
+				    /Defs/ThingDef[
+                    defName = "GN_MPSevenAOne" or
+                    defName = "GN_GlockSeventeen"]/tools
+                    </xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>grip</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>muzzle</label>
+                                <capacities>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>-->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+				    /Defs/ThingDef[
+					defName = "GN_AShTwelve" or
+					defName = "GN_ASVAL" or
+					defName = "GN_GMSix" or
+					defName = "GN_GThirtySixK" or
+                    defName = "GN_HKGL" or
+                    defName = "GN_SSMG"]/tools
+                    </xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>stock</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>8</power>
+                                <cooldownTime>1.55</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>barrel</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>5</power>
+                                <cooldownTime>2.02</cooldownTime>
+                                <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>muzzle</label>
+                                <capacities>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>8</power>
+                                <cooldownTime>1.55</cooldownTime>
+                                <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+
+                <!--===== AK-103 =====-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>GN_AKOneOThree</defName>
+                    <statBases>
+                        <WorkToMake>29000</WorkToMake>
+                        <Mass>2.90</Mass>
+                        <Bulk>6.0</Bulk>
+                        <SwayFactor>1.04</SwayFactor>
+                        <ShotSpread>0.07</ShotSpread>
+                        <SightsEfficiency>1.1</SightsEfficiency>
+                        <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+                    </statBases>
+                    <costList>
+                        <Steel>50</Steel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
+                        <burstShotCount>6</burstShotCount>
+                        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+                        <warmupTime>1.1</warmupTime>
+                        <range>50</range>
+                        <soundCast>GN_Shot_AKOneOThree</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                        <recoilAmount>1.20</recoilAmount>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>30</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                        <aiUseBurstMode>True</aiUseBurstMode>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                    </FireModes>
+                    <weaponTags>
+                        <li>CE_AI_Rifle</li>
+                    </weaponTags>
+                </li>
+
+                <!--===== R700 =====-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>GN_RSevenHundred</defName>
+                    <statBases>
+                        <Mass>7.30</Mass>
+                        <RangedWeapon_Cooldown>1.36</RangedWeapon_Cooldown>
+                        <SightsEfficiency>2.8</SightsEfficiency>
+                        <ShotSpread>0.04</ShotSpread>
+                        <SwayFactor>1.30</SwayFactor>
+                        <Bulk>12.2</Bulk>
+                        <WorkToMake>32000</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>65</Steel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Chemfuel>15</Chemfuel>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_300WinchesterMagnum_FMJ</defaultProjectile>
+                        <warmupTime>2.0</warmupTime>
+                        <range>86</range>
+                        <soundCast>GN_Shot_RSevenHundred</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>5</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_300WinchesterMagnum</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <weaponTags>
+                        <li>CE_AI_Rifle</li>
+                    </weaponTags>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+</Patch>

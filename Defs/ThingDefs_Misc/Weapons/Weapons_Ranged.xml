@@ -14,7 +14,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
     <defName></defName>
     <label></label>
     <description>_</description>
@@ -73,18 +73,18 @@
   </ThingDef> -->
 
 <Defs>
-  <ThingDef Name="GN_BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
+  <ThingDef Name="GN1_BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
     <thingCategories Inherit = "False">
       <li>GunNut</li>
     </thingCategories>
-    <weaponTags Inherit = "False">
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
+    <weaponTags Inherit = "False">      
+      <li>IndustrialGunAdvanced</li>      
     </weaponTags>
     <comps>
       <li Class="CompProperties_BiocodableWeapon"/>
     </comps>
     <thingSetMakerTags Inherit = "False">
+      <li>RewardStandardMidFreq</li>
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
   </ThingDef>
@@ -106,7 +106,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
     <defName>GN_AShTwelve</defName>
     <label>ASh-12 "Bear"</label>
     <description>Subsonic Russian battle rifle made to have high stopping power. This ShAK-12 includes a superior, a cobra sight, a laser aiming system and a sturdy foregrip.</description>
@@ -194,7 +194,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
     <defName>GN_ASVAL</defName>
     <label>AS VAL "Operator"</label>
     <description>Subsonic Russian assault rifle mostly used by Russian Spetsnaz on sabotage/behind enemy line operations. This AS VAL features an OKP 7 sight, extended magazine and a comfortable foregrip.</description>
@@ -285,7 +285,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
     <defName>GN_GMSix</defName>
     <label>GM6 "Lynx"</label>
     <description>If the government only lets you own 5 round mag rifles may as well make each bullet count. The GM6 is a light bullpup anti-material .50 BMG semi-automatic rifle that allows the possibility of off hand firing.</description>
@@ -317,7 +317,7 @@
       <AccuracyLong>0.65</AccuracyLong>
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
-    <equippedAngleOffset>50</equippedAngleOffset>
+    <equippedAngleOffset>45</equippedAngleOffset>
     <equippedStatOffsets>
       <MoveSpeed>-0.25</MoveSpeed>
     </equippedStatOffsets>
@@ -339,7 +339,7 @@
       </li>
     </verbs>
     <weaponTags Inherit="False">
-      <li>SniperRifle</li>
+      <li>OP</li>
     </weaponTags>
     <tools>
 
@@ -363,20 +363,20 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
     <defName>GN_GThirtySixK</defName>
     <label>G36K "Nailer"</label>
     <description>Widely used in Europe the G36 rifle is a lightweight polymer assault rifle made by the german company HK. This G36K features a Strikefire sight, a led flashlight and a foregrip.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_GThirtySixK</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.2</drawSize>
+      <graphicClass>Graphic_Single</graphicClass>      
     </graphicData>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
 
       </li>
     </comps>
+    <equippedAngleOffset>50</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
@@ -448,7 +448,7 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <speed>40</speed>
-      <damageDef>Bomb</damageDef>      
+      <damageDef>Bomb</damageDef>
       <explosionRadius>1.9</explosionRadius>
       <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
@@ -457,7 +457,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
     <defName>GN_HKGL</defName>
     <label>M320 "Trooper"</label>
     <description>Single-shot 40 mm grenade launcher made as a replacement for the older M203. This M320 comes on the stan-alone configuration allowing to be used as a explosive sidearm.</description>
@@ -541,7 +541,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
     <defName>GN_SSMG</defName>
     <label>MG 338 "Norma"</label>
     <description>One of the newest LMGs the Sig Sauer MG 338 is designed to bridge the gap between the current machine gun calibers making use of the .338 Norma Mag while being lighter the M240.</description>
@@ -595,6 +595,9 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <weaponTags>
+      <li>GunHeavy</li>
+    </weaponTags>
     <tools>
       <li>
         <label>stock</label>

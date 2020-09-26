@@ -77,7 +77,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_GThirtySixK</defName>
+        <defName>GN_Shot_GThirtySix</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -85,7 +85,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_GThirtySixK</clipFolderPath>
+                        <clipFolderPath>Weapons/GN_Shot_GThirtySix</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>

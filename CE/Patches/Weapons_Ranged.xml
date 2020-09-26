@@ -89,40 +89,40 @@
                     </value>
                 </li>
 
-                <!--===== AK-103 =====-->
+                <!--===== ASh-12 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_AKOneOThree</defName>
+                    <defName>GN_AShTwelve</defName>
                     <statBases>
                         <WorkToMake>29000</WorkToMake>
-                        <Mass>2.90</Mass>
-                        <Bulk>6.0</Bulk>
-                        <SwayFactor>1.04</SwayFactor>
+                        <Mass>3.2</Mass>
+                        <Bulk>7.0</Bulk>
+                        <SwayFactor>1.30</SwayFactor>
                         <ShotSpread>0.07</ShotSpread>
                         <SightsEfficiency>1.1</SightsEfficiency>
                         <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
                     </statBases>
                     <costList>
-                        <Steel>50</Steel>
+                        <Steel>55</Steel>
                         <ComponentIndustrial>5</ComponentIndustrial>
                         <Chemfuel>10</Chemfuel>
                     </costList>
                     <Properties>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>True</hasStandardCommand>
-                        <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
-                        <burstShotCount>6</burstShotCount>
-                        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
-                        <warmupTime>1.1</warmupTime>
+                        <defaultProjectile>Bullet_127x55mmAR_FMJ</defaultProjectile>
+                        <burstShotCount>5</burstShotCount>
+                        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                        <warmupTime>1.0</warmupTime>
                         <range>50</range>
-                        <soundCast>GN_Shot_AKOneOThree</soundCast>
+                        <soundCast>GN_Shot_AShTwelve</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
-                        <recoilAmount>1.20</recoilAmount>
+                        <recoilAmount>2.0</recoilAmount>
                     </Properties>
                     <AmmoUser>
-                        <magazineSize>30</magazineSize>
+                        <magazineSize>20</magazineSize>
                         <reloadTime>4</reloadTime>
-                        <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+                        <ammoSet>AmmoSet_127x55mmAR</ammoSet>
                     </AmmoUser>
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
@@ -134,46 +134,221 @@
                     </weaponTags>
                 </li>
 
-                <!--===== R700 =====-->
+                <!--===== AS VAL =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_RSevenHundred</defName>
+                    <defName>GN_ASVAL</defName>
                     <statBases>
-                        <Mass>7.30</Mass>
-                        <RangedWeapon_Cooldown>1.36</RangedWeapon_Cooldown>
-                        <SightsEfficiency>2.8</SightsEfficiency>
-                        <ShotSpread>0.04</ShotSpread>
-                        <SwayFactor>1.30</SwayFactor>
-                        <Bulk>12.2</Bulk>
-                        <WorkToMake>32000</WorkToMake>
+                        <WorkToMake>30000</WorkToMake>
+                        <Mass>2.52</Mass>
+                        <Bulk>6.0</Bulk>
+                        <SwayFactor>1.04</SwayFactor>
+                        <ShotSpread>0.08</ShotSpread>
+                        <SightsEfficiency>1.1</SightsEfficiency>
+                        <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
                     </statBases>
                     <costList>
-                        <Steel>65</Steel>
+                        <Steel>50</Steel>
                         <ComponentIndustrial>5</ComponentIndustrial>
-                        <Chemfuel>15</Chemfuel>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>Bullet_9x39mmSoviet_FMJ</defaultProjectile>
+                        <burstShotCount>4</burstShotCount>
+                        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                        <warmupTime>1.0</warmupTime>
+                        <range>48</range>
+                        <soundCast>GN_Shot_ASVAL</soundCast>
+                        <soundCastTail>GunTail_Light</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                        <recoilAmount>1.8</recoilAmount>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>30</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_9x39mmSoviet</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                        <aiUseBurstMode>True</aiUseBurstMode>
+                        <aimedBurstShotCount>2</aimedBurstShotCount>
+                    </FireModes>
+                    <weaponTags>
+                        <li>CE_AI_AssaultWeapon</li>
+                    </weaponTags>
+                </li>
+
+                <!--===== GM6 =====-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>GN_GMSix</defName>
+                    <statBases>
+                        <Mass>13.50</Mass>
+                        <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
+                        <SightsEfficiency>1.6</SightsEfficiency>
+                        <ShotSpread>0.14</ShotSpread>
+                        <SwayFactor>2.0</SwayFactor>
+                        <Bulk>15.0</Bulk>
+                        <WorkToMake>40000</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>90</Steel>
+                        <ComponentIndustrial>6</ComponentIndustrial>
+                        <Chemfuel>20</Chemfuel>
                     </costList>
                     <Properties>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                         <hasStandardCommand>true</hasStandardCommand>
-                        <defaultProjectile>Bullet_300WinchesterMagnum_FMJ</defaultProjectile>
-                        <warmupTime>2.0</warmupTime>
-                        <range>86</range>
-                        <soundCast>GN_Shot_RSevenHundred</soundCast>
+                        <defaultProjectile>Bullet_50BMG_FMJ</defaultProjectile>
+                        <warmupTime>1.4</warmupTime>
+                        <range>57</range>
+                        <soundCast>GN_Shot_GMSix</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                     </Properties>
                     <AmmoUser>
                         <magazineSize>5</magazineSize>
                         <reloadTime>4</reloadTime>
-                        <ammoSet>AmmoSet_300WinchesterMagnum</ammoSet>
+                        <ammoSet>AmmoSet_50BMG</ammoSet>
                     </AmmoUser>
                     <FireModes>
                         <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <weaponTags>
+                        <li>OP</li>
+                    </weaponTags>
+                </li>
+
+                <!--===== G36 =====-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>GN_GThirtySix</defName>
+                    <statBases>
+                        <WorkToMake>32000</WorkToMake>
+                        <Mass>3.1</Mass>
+                        <Bulk>9.0</Bulk>
+                        <SwayFactor>1.33</SwayFactor>
+                        <ShotSpread>0.07</ShotSpread>
+                        <SightsEfficiency>1.1</SightsEfficiency>
+                        <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+                    </statBases>
+                    <costList>
+                        <Steel>55</Steel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+                        <burstShotCount>6</burstShotCount>
+                        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                        <warmupTime>1.1</warmupTime>
+                        <range>56</range>
+                        <soundCast>GN_Shot_GThirtySix</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                        <recoilAmount>1.53</recoilAmount>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>30</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                        <aiUseBurstMode>True</aiUseBurstMode>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
                     </FireModes>
                     <weaponTags>
                         <li>CE_AI_Rifle</li>
                     </weaponTags>
                 </li>
 
+                <!--===== M320 =====-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>GN_HKGL</defName>
+                    <statBases>
+                        <Mass>3.2</Mass>
+                        <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+                        <SightsEfficiency>2.8</SightsEfficiency>
+                        <ShotSpread>0.18</ShotSpread>
+                        <SwayFactor>1.0</SwayFactor>
+                        <Bulk>4.2</Bulk>
+                        <WorkToMake>25000</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>30</Steel>
+                        <ComponentIndustrial>2</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
+                        <warmupTime>1</warmupTime>
+                        <range>38</range>
+                        <soundCast>InfernoCannon_Fire</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>1</magazineSize>
+                        <reloadTime>3</reloadTime>
+                        <ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <weaponTags>
+                        <li>GunHeavy</li>
+                    </weaponTags>
+                </li>
+
+                <!--===== MG 338 =====-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>GN_SSMG</defName>
+                    <statBases>
+                        <WorkToMake>38000</WorkToMake>
+                        <Mass>2.90</Mass>
+                        <Bulk>14.0</Bulk>
+                        <SwayFactor>1.30</SwayFactor>
+                        <ShotSpread>0.05</ShotSpread>
+                        <SightsEfficiency>1.1</SightsEfficiency>
+                        <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+                    </statBases>
+                    <costList>
+                        <Steel>85</Steel>
+                        <ComponentIndustrial>6</ComponentIndustrial>
+                        <Chemfuel>15</Chemfuel>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>Bullet_338Norma_FMJ</defaultProjectile>
+                        <burstShotCount>7</burstShotCount>
+                        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+                        <warmupTime>1.1</warmupTime>
+                        <range>70</range>
+                        <soundCast>GN_Shot_SSMG</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                        <recoilAmount>1.45</recoilAmount>
+                        <recoilPattern>Mounted</recoilPattern>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>100</magazineSize>
+                        <reloadTime>6.5</reloadTime>
+                        <ammoSet>AmmoSet_338Norma</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiUseBurstMode>FALSE</aiUseBurstMode>
+                        <aiAimMode>SuppressFire</aiAimMode>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                    </FireModes>
+                    <weaponTags>
+                        <li>CE_MachineGun</li>
+                    </weaponTags>
+                </li>
             </operations>
         </match>
     </Operation>

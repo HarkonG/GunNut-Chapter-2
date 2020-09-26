@@ -115,6 +115,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
@@ -203,6 +204,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
@@ -241,7 +243,7 @@
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <soundCast>GN_Shot_ASVAL</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
+        <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
@@ -294,6 +296,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.2</drawSize>
     </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
@@ -316,8 +319,7 @@
       <AccuracyMedium>0.75</AccuracyMedium>
       <AccuracyLong>0.65</AccuracyLong>
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
-    </statBases>
-    <equippedAngleOffset>45</equippedAngleOffset>
+    </statBases>    
     <equippedStatOffsets>
       <MoveSpeed>-0.25</MoveSpeed>
     </equippedStatOffsets>
@@ -346,12 +348,12 @@
     </tools>
   </ThingDef>
 
-  <!--===== G36K =====-->
+  <!--===== G36 =====-->
   <!--===== (AR) Similar, better =====-->
 
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_GThirtySixK</defName>
-    <label>G36K bullet</label>
+    <defName>GN_Bullet_GThirtySix</defName>
+    <label>G36 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -364,19 +366,18 @@
   </ThingDef>
 
   <ThingDef ParentName="GN1_BaseHumanMakeableGun">
-    <defName>GN_GThirtySixK</defName>
-    <label>G36K "Nailer"</label>
-    <description>Widely used in Europe the G36 rifle is a lightweight polymer assault rifle made by the german company HK. This G36K features a Strikefire sight, a led flashlight and a foregrip.</description>
+    <defName>GN_GThirtySix</defName>
+    <label>G36 "Oberndorf"</label>
+    <description>Widely used in Europe the G36 rifle is a lightweight polymer assault rifle made by the german company HK. This G36 features a Strikefire sight and a foregrip.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_GThirtySixK</texPath>
+      <texPath>Things/Weapons/GN_GThirtySix</texPath>
       <graphicClass>Graphic_Single</graphicClass>      
     </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-
       </li>
-    </comps>
-    <equippedAngleOffset>50</equippedAngleOffset>
+    </comps>    
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
@@ -405,12 +406,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_GThirtySixK</defaultProjectile>
+        <defaultProjectile>GN_Bullet_GThirtySix</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>28</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_GThirtySixK</soundCast>
+        <soundCast>GN_Shot_GThirtySix</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -453,7 +454,7 @@
       <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
       <ai_IsIncendiary>false</ai_IsIncendiary>
-      <explosionDelay>30</explosionDelay>
+      <explosionDelay>1</explosionDelay>
     </projectile>
   </ThingDef>
 
@@ -490,7 +491,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>GN_Bullet_HKGL</defaultProjectile>
-        <warmupTime>3.5</warmupTime>
+        <warmupTime>2.5</warmupTime>
         <range>15</range>
         <forcedMissRadius>1.2</forcedMissRadius>
         <soundCast>InfernoCannon_Fire</soundCast>
@@ -548,8 +549,9 @@
     <graphicData>
       <texPath>Things/Weapons/GN_SSMG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.4</drawSize>
+      <drawSize>1.2</drawSize>
     </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>

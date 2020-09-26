@@ -103,6 +103,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>16</damageAmountBase>
       <speed>50</speed>
+      <stoppingPower>3</stoppingPower>
     </projectile>
   </ThingDef>
 

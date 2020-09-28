@@ -110,7 +110,7 @@
   <ThingDef ParentName="GN1_BaseHumanMakeableGun">
     <defName>GN_AShTwelve</defName>
     <label>ASh-12 "Bear"</label>
-    <description>Subsonic Russian battle rifle made to have high stopping power. This ShAK-12 includes a superior, a cobra sight, a laser aiming system and a sturdy foregrip.</description>
+    <description>Subsonic Russian battle rifle made to have high stopping power. This ShAK-12 includes a cobra sight, a laser aiming system and a sturdy foregrip.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_AShTwelve</texPath>
       <graphicClass>Graphic_Single</graphicClass>

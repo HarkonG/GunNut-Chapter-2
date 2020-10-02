@@ -14,7 +14,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName></defName>
     <label></label>
     <description>_</description>
@@ -24,9 +24,7 @@
       <drawSize>1.0</drawSize>
     </graphicData>
     <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
-        <eastOffset>0</eastOffset>
-        <westOffset>0</westOffset>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">       
       </li>
     </comps>    
     <soundInteract></soundInteract>
@@ -73,12 +71,12 @@
   </ThingDef> -->
 
 <Defs>
-  <ThingDef Name="GN1_BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
+  <ThingDef Name="GN2_BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
     <thingCategories Inherit = "False">
       <li>GunNut</li>
     </thingCategories>
-    <weaponTags Inherit = "False">      
-      <li>IndustrialGunAdvanced</li>      
+    <weaponTags Inherit = "False">
+      <li>IndustrialGunAdvanced</li>
     </weaponTags>
     <comps>
       <li Class="CompProperties_BiocodableWeapon"/>
@@ -107,7 +105,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_AShTwelve</defName>
     <label>ASh-12 "Bear"</label>
     <description>Subsonic Russian battle rifle made to have high stopping power. This ShAK-12 includes a cobra sight, a laser aiming system and a sturdy foregrip.</description>
@@ -196,7 +194,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_ASVAL</defName>
     <label>AS VAL "Operator"</label>
     <description>Subsonic Russian assault rifle mostly used by Russian Spetsnaz on sabotage/behind enemy line operations. This AS VAL features an OKP 7 sight, extended magazine and a comfortable foregrip.</description>
@@ -288,7 +286,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_GMSix</defName>
     <label>GM6 "Lynx"</label>
     <description>If the government only lets you own 5 round mag rifles may as well make each bullet count. The GM6 is a light bullpup anti-material .50 BMG semi-automatic rifle that allows the possibility of off hand firing.</description>
@@ -320,7 +318,7 @@
       <AccuracyMedium>0.75</AccuracyMedium>
       <AccuracyLong>0.65</AccuracyLong>
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
-    </statBases>    
+    </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.25</MoveSpeed>
     </equippedStatOffsets>
@@ -366,19 +364,19 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_GThirtySix</defName>
     <label>G36 "Oberndorf"</label>
-    <description>Widely used in Europe the G36 rifle is a lightweight polymer assault rifle made by the german company HK. This G36 features a Strikefire sight and a foregrip.</description>
+    <description>Widely used in Europe the G36 rifle is a polymer assault rifle made by the german company HK. This G36 features a Strikefire sight and a foregrip.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_GThirtySix</texPath>
-      <graphicClass>Graphic_Single</graphicClass>      
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
       </li>
-    </comps>    
+    </comps>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
@@ -459,7 +457,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_HKGL</defName>
     <label>M320 "Trooper"</label>
     <description>Single-shot 40 mm grenade launcher made as a replacement for the older M203. This M320 comes on the stan-alone configuration allowing to be used as a explosive sidearm.</description>
@@ -543,7 +541,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN1_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
     <defName>GN_SSMG</defName>
     <label>MG 338 "Norma"</label>
     <description>One of the newest LMGs the Sig Sauer MG 338 is designed to bridge the gap between the current machine gun calibers making use of the .338 Norma Mag while being lighter the M240.</description>
@@ -618,6 +616,371 @@
         </capacities>
         <power>9</power>
         <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!--===== SKS =====-->
+  <!--===== A better semi-automatic carbine =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_SKS</defName>
+    <label>SKS bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+    <defName>GN_SKS</defName>
+    <label>SKS "Tapco"</label>
+    <description>Soviet semi-automatic rifle, this SKS comes with the Tapco stock, a supressor, extended 35-round magazine, a foregrip and a frontal red dot sight.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_SKS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+      </li>
+    </comps>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>13000</WorkToMake>
+      <Mass>3</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.68</AccuracyLong>
+      <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_SKS</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>31.2</range>
+        <soundCast>GN_Shot_SKS</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!--===== SR-25 =====-->
+  <!--===== A semi automatic sniper =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_SRTwentyFive</defName>
+    <label>SR-25 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+    <defName>GN_SRTwentyFive</defName>
+    <label>SR-25 "M110"</label>
+    <description>The SR-25 is a designated marksman rifle designed by Eugene Stoner. This variant, the M110, is chambered in 7.62x51 NATO and includes a small bipod, 20 round mag, a long suppresor and a precision scope.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_SRTwentyFive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+      </li>
+    </comps>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.68</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.86</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_SRTwentyFive</defaultProjectile>
+        <warmupTime>2.8</warmupTime>
+        <range>44</range>
+        <soundCast>GN_Shot_SRTwentyFive</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!--===== Negev =====-->
+  <!--===== Lighter, fast firing LMG =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_NGFive</defName>
+    <label>NG5 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>46</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+    <defName>GN_NGFive</defName>
+    <label>NG5 "Negev"</label>
+    <description>The NG5 is the last iteration of the lmg commonly know by the name of an Isreali desert called Negev. This one comes with mag box,  a mid range scope and a bipod the shorter barrel and reciever makes this lmg easier to carry than the other variants.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_NGFive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+      </li>
+    </comps>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>32000</WorkToMake>
+      <Mass>6</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.52</AccuracyShort>
+      <AccuracyMedium>0.42</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>70</Steel>
+      <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <weaponTags Inherit = "False">
+      <li>GunHeavy</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_NGFive</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>22</range>
+        <burstShotCount>7</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>GN_Shot_NGFive</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!--===== M3E1 "Carl Gustaf" =====-->
+  <!--===== (__________) =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_MThreeEOne</defName>
+    <label>M3E1 rocket blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Rocket_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <explosionRadius>1.5</explosionRadius>
+      <speed>60</speed>
+      <damageAmountBase>200</damageAmountBase>
+      <stoppingPower>5</stoppingPower>
+      <armorPenetrationBase>3</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+    <defName>Gn_MThreeEOne</defName>
+    <label>M3E1 "Carl Gustaf"</label>
+    <description>Man-portable 84mm reusable anti-tank weapon. The M3E1 is the last iteration of the lightweight/low-cost weapon know as the Carl Gustaf recoilless rifle produced in Sweden.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_MThreeEOne</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">       
+      </li>
+    </comps>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>55000</WorkToMake>
+      <Mass>3</Mass>
+      <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>125</Steel>
+      <Chemfuel>20</Chemfuel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <techLevel>Spacer</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <weaponTags Inherit = "False">
+      <li>GunHeavy</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <forcedMissRadius>1</forcedMissRadius>
+        <defaultProjectile>GN_Bullet_MThreeEOne</defaultProjectile>
+        <warmupTime>3.5</warmupTime>
+        <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+        <range>40</range>
+        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <onlyManualCast>false</onlyManualCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <muzzleFlashScale>15</muzzleFlashScale>
+      </li>
+    </verbs>
+    <thingSetMakerTags Inherit = "False">
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
   </ThingDef>

@@ -117,6 +117,8 @@
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.05,0,0)</eastOffset>
+        <westOffset>(-0.05,0,0)</westOffset>
       </li>
     </comps>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -206,6 +208,8 @@
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.1,0,0)</eastOffset>
+        <westOffset>(-0.1,0,0)</westOffset>
       </li>
     </comps>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -298,6 +302,8 @@
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.25,0,0)</eastOffset>
+        <westOffset>(-0.25,0,0)</westOffset>
       </li>
     </comps>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -375,6 +381,8 @@
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.1,0,0)</eastOffset>
+        <westOffset>(-0.1,0,0)</westOffset>
       </li>
     </comps>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -548,11 +556,13 @@
     <graphicData>
       <texPath>Things/Weapons/GN_SSMG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.2</drawSize>
+      <drawSize>1.1</drawSize>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.2,0,0)</eastOffset>
+        <westOffset>(-0.2,0,0)</westOffset>
       </li>
     </comps>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -648,7 +658,9 @@
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.05,0,0)</eastOffset>
+        <westOffset>(-0.05,0,0)</westOffset>
       </li>
     </comps>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -732,11 +744,13 @@
     <graphicData>
       <texPath>Things/Weapons/GN_SRTwentyFive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.0</drawSize>
+      <drawSize>1.1</drawSize>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <eastOffset>(0.15,0,0)</eastOffset>
+        <westOffset>(-0.15,0,0)</westOffset>
       </li>
     </comps>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -823,7 +837,10 @@
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">        
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <!-- X / Z / Y -->
+        <eastOffset>(0.05,0,0)</eastOffset>
+        <westOffset>(-0.05,0,0)</westOffset>
       </li>
     </comps>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -910,7 +927,7 @@
   </ThingDef>
 
   <ThingDef ParentName="GN2_BaseHumanMakeableGun">
-    <defName>Gn_MThreeEOne</defName>
+    <defName>GN_MThreeEOne</defName>
     <label>M3E1 "Carl Gustaf"</label>
     <description>Man-portable 84mm reusable anti-tank weapon. The M3E1 is the last iteration of the lightweight/low-cost weapon know as the Carl Gustaf recoilless rifle produced in Sweden.</description>
     <graphicData>
@@ -920,7 +937,10 @@
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">       
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <!-- X / Z / Y -->
+        <eastOffset>(-0.2,0,0.05)</eastOffset>
+        <westOffset>(0.2,0,0.05)</westOffset>
       </li>
     </comps>
     <soundInteract>Interact_Rifle</soundInteract>

@@ -11,7 +11,7 @@
                     <xpath>
 				    /Defs/ThingDef[					
                     defName = "GN_SRTwentyFive" or
-                    defName = "GN_Neopup"]/tools
+                    defName = "GN_GalilACE"]/tools
                     </xpath>
                     <value>
                         <tools>

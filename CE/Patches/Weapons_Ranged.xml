@@ -19,7 +19,8 @@
                     defName = "GN_HKGL" or
                     defName = "GN_SKS" or
                     defName = "GN_NGFive" or
-                    defName = "GN_MThreeEOne" or                    
+                    defName = "GN_MThreeEOne" or
+                    defName = "GN_Neopup" or                    
                     defName = "GN_SSMG"]/tools
                     </xpath>
                     <value>

@@ -19,8 +19,7 @@
                     defName = "GN_HKGL" or
                     defName = "GN_SKS" or
                     defName = "GN_NGFive" or
-                    defName = "GN_MThreeEOne" or
-                    defName = "GN_SRTwentyFive" or
+                    defName = "GN_MThreeEOne" or                    
                     defName = "GN_SSMG"]/tools
                     </xpath>
                     <value>
@@ -133,7 +132,7 @@
                         <soundCast>GN_Shot_ASVAL</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
-                        <recoilAmount>1.8</recoilAmount>
+                        <recoilAmount>1.1</recoilAmount>
                     </Properties>
                     <AmmoUser>
                         <magazineSize>30</magazineSize>
@@ -406,46 +405,6 @@
                     </weaponTags>
                 </li>
 
-                <!--===== SR-25 =====-->
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_SRTwentyFive</defName>
-                    <statBases>
-                        <WorkToMake>30000</WorkToMake>
-                        <Mass>7</Mass>
-                        <Bulk>11</Bulk>
-                        <SwayFactor>1.40</SwayFactor>
-                        <ShotSpread>0.05</ShotSpread>
-                        <SightsEfficiency>2.6</SightsEfficiency>
-                        <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
-                    </statBases>
-                    <costList>
-                        <Steel>65</Steel>
-                        <ComponentIndustrial>5</ComponentIndustrial>
-                        <Chemfuel>10</Chemfuel>
-                    </costList>
-                    <Properties>
-                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                        <hasStandardCommand>True</hasStandardCommand>
-                        <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-                        <warmupTime>1</warmupTime>
-                        <range>72</range>
-                        <soundCast>GN_Shot_SRTwentyFive</soundCast>
-                        <soundCastTail>GunTail_Medium</soundCastTail>
-                        <muzzleFlashScale>9</muzzleFlashScale>
-                    </Properties>
-                    <AmmoUser>
-                        <magazineSize>20</magazineSize>
-                        <reloadTime>3</reloadTime>
-                        <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
-                    </AmmoUser>
-                    <FireModes>
-                        <aiAimMode>AimedShot</aiAimMode>
-                    </FireModes>
-                    <weaponTags>
-                        <li>CE_AI_Rifle</li>
-                    </weaponTags>
-                </li>
-
                 <!-- ========== M3E1 "Carl Gustaf" ========== -->
 
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -489,6 +448,47 @@
                     </FireModes>
                     <weaponTags>
                         <li>GunHeavy</li>
+                    </weaponTags>
+                </li>
+
+                <!--===== Neopup PAW =====-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>GN_Neopup</defName>
+                    <statBases>
+                        <WorkToMake>19500</WorkToMake>
+                        <Mass>6</Mass>
+                        <Bulk>11</Bulk>
+                        <SwayFactor>1.80</SwayFactor>
+                        <ShotSpread>0.20</ShotSpread>
+                        <SightsEfficiency>1.1</SightsEfficiency>
+                        <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+                    </statBases>
+                    <costList>
+                        <Steel>55</Steel>
+                        <ComponentIndustrial>3</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>Bullet_20x42mmGrenade_HE</defaultProjectile>
+                        <warmupTime>1.1</warmupTime>
+                        <range>54</range>                        
+                        <soundCast>GN_Shot_Neopup</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                        <recoilAmount>3.2</recoilAmount>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>8</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_20x42mmGrenade</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <weaponTags>
+                        <li>CE_AI_Rifle</li>
                     </weaponTags>
                 </li>
 

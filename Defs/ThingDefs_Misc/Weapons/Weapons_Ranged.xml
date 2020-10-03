@@ -456,7 +456,7 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <speed>40</speed>
-      <damageDef>Bomb</damageDef>
+      <damageDef>GN_Bomb</damageDef>
       <explosionRadius>1.9</explosionRadius>
       <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
@@ -917,7 +917,7 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>Bomb</damageDef>
+      <damageDef>GN_Bomb</damageDef>
       <explosionRadius>1.5</explosionRadius>
       <speed>60</speed>
       <damageAmountBase>200</damageAmountBase>
@@ -1004,4 +1004,195 @@
       </li>
     </tools>
   </ThingDef>
+
+  <!--===== Neopup PAW =====-->
+  <!--===== (__________) =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_Neopup</defName>
+    <label>Neopup explosive bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>    
+    <projectile>
+      <speed>62</speed>
+      <damageDef>GN_Bomb</damageDef>
+      <explosionRadius>1</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
+      <ai_IsIncendiary>false</ai_IsIncendiary>
+      <explosionDelay>1</explosionDelay>
+      <damageAmountBase>32</damageAmountBase>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+    <defName>GN_Neopup</defName>
+    <label>Neopup "PAW"</label>
+    <description>The South African semi-automatic light cannon made by Denel. This weird looking firearm shots a custom explosive projectile while behaving more like a rifle than a regular grenade launcher.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_Neopup</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      <!-- X / Z / Y -->
+        <eastOffset>(0.1,0,0)</eastOffset>
+        <westOffset>(-0.1,0,0)</westOffset>
+      </li>
+    </comps>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>6</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>70</Steel>
+      <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_Neopup</defaultProjectile>
+        <forcedMissRadius>0.5</forcedMissRadius>
+        <warmupTime>1.2</warmupTime>
+        <range>36</range>        
+        <soundCast>GN_Shot_Neopup</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+        <onlyManualCast>false</onlyManualCast>        
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!--===== Galil ACE =====-->
+  <!--===== (__________) =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_GalilACE</defName>
+    <label>Galil ACE bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+    <defName>GN_GalilACE</defName>
+    <label>Galil ACE "Indumil"</label>
+    <description>One of the last iterations of the famous Galil rifle, the ACE uses modern materials to improve the preformance of its predecessor in almost every way. This Galil comes with a red dot sight, a foregrip and is chambered in 7.62x51 NATO.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_GalilACE</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      <!-- X / Z / Y -->
+        <eastOffset>(0.05,0,0)</eastOffset>
+        <westOffset>(-0.05,0,0)</westOffset>
+      </li>
+    </comps>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <Mass>3.0</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_GalilACE</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>28</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>GN_Shot_GalilACE</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
 </Defs>

@@ -821,7 +821,7 @@
     <defName>GN_Bullet_MThreeEOne</defName>
     <label>M3E1 rocket blast</label>
     <graphicData>
-      <texPath>Things/Projectile/Rocket_Big</texPath>
+      <texPath>Ammo/M3E1/HEAT_Bullet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
@@ -829,7 +829,7 @@
     <projectile>
       <damageDef>GN_Bomb</damageDef>
       <explosionRadius>1.5</explosionRadius>
-      <speed>60</speed>
+      <speed>51</speed>
       <damageAmountBase>200</damageAmountBase>
       <stoppingPower>5</stoppingPower>
       <armorPenetrationBase>3</armorPenetrationBase>

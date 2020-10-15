@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <DamageDef Name="Bomb">
+    <DamageDef Name="GN_Bomb">
         <defName>GN_Bomb</defName>
         <label>bomb</label>
         <workerClass>DamageWorker_AddInjury</workerClass>

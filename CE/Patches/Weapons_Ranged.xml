@@ -197,10 +197,10 @@
                         <WorkToMake>32000</WorkToMake>
                         <Mass>3.1</Mass>
                         <Bulk>9.0</Bulk>
-                        <SwayFactor>1.33</SwayFactor>
+                        <SwayFactor>1.20</SwayFactor>
                         <ShotSpread>0.07</ShotSpread>
                         <SightsEfficiency>1.1</SightsEfficiency>
-                        <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+                        <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
                     </statBases>
                     <costList>
                         <Steel>55</Steel>
@@ -214,7 +214,7 @@
                         <burstShotCount>6</burstShotCount>
                         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
                         <warmupTime>1.1</warmupTime>
-                        <range>56</range>
+                        <range>58</range>
                         <soundCast>GN_Shot_GThirtySix</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
@@ -258,9 +258,12 @@
                         <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
                         <warmupTime>1</warmupTime>
                         <range>38</range>
-                        <soundCast>InfernoCannon_Fire</soundCast>
+                        <soundCast>GN_Shot_HKGL</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
+                        <targetParams>
+                            <canTargetLocations>true</canTargetLocations>
+                        </targetParams>
                     </Properties>
                     <AmmoUser>
                         <magazineSize>1</magazineSize>
@@ -347,6 +350,9 @@
                         <soundCast>GN_Shot_SKS</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
+                        <targetParams>
+                            <canTargetLocations>true</canTargetLocations>
+                        </targetParams>
                     </Properties>
                     <AmmoUser>
                         <magazineSize>35</magazineSize>
@@ -432,7 +438,7 @@
                         <range>55</range>
                         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
                         <minRange>5</minRange>
-                        <soundCast>InfernoCannon_Fire</soundCast>
+                        <soundCast>GN_Shot_MThreeEOne</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
                         <muzzleFlashScale>14</muzzleFlashScale>
                         <targetParams>

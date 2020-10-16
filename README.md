@@ -9,7 +9,7 @@
 - Minor balance tweaks to the G36.
 - Fixed an oversight on the bomb damage def from Gun Nut and patched the vanilla one so other mods make use of the new explosion sound.
 
-- (EXTRA!) AT-4 "Saab", again as a paid commission and only avaliable for CE users since is meant to be an improvent on the CE LAW single-shot launcher. 
+- (EXTRA!) AT-4 "Saab", again as a paid commission and only available for CE users since is meant to be an improvement on the CE LAW single-shot launcher. 
 
 ### 1.2.2(03/10/20)
 With the addition of the Neopup PAW I consider Gun Nut 2 complete, the next updates will include the settings menu as well as some rebalance and minor fixes.

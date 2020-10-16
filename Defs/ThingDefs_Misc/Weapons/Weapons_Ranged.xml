@@ -501,7 +501,7 @@
         <warmupTime>2.5</warmupTime>
         <range>15</range>
         <forcedMissRadius>1.2</forcedMissRadius>
-        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCast>GN_Shot_HKGL</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>
         <targetParams>
@@ -891,7 +891,7 @@
         <range>40</range>
         <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
         <burstShotCount>1</burstShotCount>
-        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCast>GN_Shot_MThreeEOne</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <onlyManualCast>false</onlyManualCast>
         <targetParams>

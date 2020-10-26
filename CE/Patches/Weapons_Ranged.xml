@@ -456,6 +456,7 @@
                     <weaponTags>
                         <li>GunHeavy</li>
                     </weaponTags>
+                    <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
                 </li>
 
                 <!--===== Neopup PAW =====-->

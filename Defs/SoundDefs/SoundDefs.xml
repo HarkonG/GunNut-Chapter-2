@@ -152,31 +152,6 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_SRTwentyFive</defName>
-        <context>MapOnly</context>
-        <eventNames />
-        <maxSimultaneous>1</maxSimultaneous>
-        <subSounds>
-            <li>
-                <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_SRTwentyFive</clipFolderPath>
-                    </li>
-                </grains>
-                <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
-
-    <SoundDef>
         <defName>GN_Shot_NGFive</defName>
         <context>MapOnly</context>
         <eventNames />
@@ -224,32 +199,7 @@
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>
-
-    <SoundDef>
-        <defName>GN_Shot_GalilACE</defName>
-        <context>MapOnly</context>
-        <eventNames />
-        <maxSimultaneous>1</maxSimultaneous>
-        <subSounds>
-            <li>
-                <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_GalilACE</clipFolderPath>
-                    </li>
-                </grains>
-                <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+    </SoundDef>    
 
     <SoundDef>
         <defName>GN_Shot_MThreeEOne</defName>
@@ -285,7 +235,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_GL</clipFolderPath>
+                        <clipFolderPath>Weapons/GN_Shot_HKGL</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -299,130 +249,5 @@
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>
-
-    <SoundDef>
-        <defName>GN_Shot_ATFour</defName>
-        <context>MapOnly</context>
-        <eventNames />
-        <maxSimultaneous>1</maxSimultaneous>
-        <subSounds>
-            <li>
-                <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_Launcher</clipFolderPath>
-                    </li>
-                </grains>
-                <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
-
-    <SoundDef>
-        <defName>GN_Shot_StGFortyFour</defName>
-        <context>MapOnly</context>
-        <eventNames />
-        <maxSimultaneous>1</maxSimultaneous>
-        <subSounds>
-            <li>
-                <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_StGFortyFour</clipFolderPath>
-                    </li>
-                </grains>
-                <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
-
-    <SoundDef>
-        <defName>GN_Shot_MGThree</defName>
-        <context>MapOnly</context>
-        <eventNames />
-        <maxSimultaneous>1</maxSimultaneous>
-        <subSounds>
-            <li>
-                <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_MGThree</clipFolderPath>
-                    </li>
-                </grains>
-                <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
-
-    <SoundDef>
-        <defName>GN_Shot_KSTwentyThree</defName>
-        <context>MapOnly</context>
-        <eventNames />
-        <maxSimultaneous>1</maxSimultaneous>
-        <subSounds>
-            <li>
-                <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>GN_Shot_KSTwentyThree</clipFolderPath>
-                    </li>
-                </grains>
-                <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
-
-    <SoundDef>
-        <defName>GN_SFX_Bomb</defName>
-        <context>MapOnly</context>
-        <eventNames />
-        <maxSimultaneous>1</maxSimultaneous>
-        <subSounds>
-            <li>
-                <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_SFX_Bomb</clipFolderPath>
-                    </li>
-                </grains>
-                <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+    </SoundDef>    
 </Defs>    

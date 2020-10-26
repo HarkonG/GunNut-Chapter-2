@@ -1,92 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--<ThingDef ParentName="BaseBullet">
-    <defName></defName>
-    <label></label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase></damageAmountBase>
-      <speed></speed>
-    </projectile>
-  </ThingDef>
-
-  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
-    <defName></defName>
-    <label></label>
-    <description>_</description>
-    <graphicData>
-      <texPath>Things/Weapons/</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.0</drawSize>
-    </graphicData>
-    <comps>
-      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">       
-      </li>
-    </comps>    
-    <soundInteract></soundInteract>
-    <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
-      <skillRequirements>
-        <Crafting></Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <statBases>
-      <WorkToMake></WorkToMake>
-      <Mass></Mass>
-      <AccuracyTouch></AccuracyTouch>
-      <AccuracyShort></AccuracyShort>
-      <AccuracyMedium></AccuracyMedium>
-      <AccuracyLong></AccuracyLong>
-      <RangedWeapon_Cooldown></RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel></Steel>
-      <Chemfuel></Chemfuel>
-      <ComponentIndustrial></ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile></defaultProjectile>
-        <warmupTime></warmupTime>
-        <range></range>
-        <burstShotCount></burstShotCount>
-        <ticksBetweenBurstShots></ticksBetweenBurstShots>
-        <soundCast></soundCast>
-        <soundCastTail></soundCastTail>
-        <muzzleFlashScale></muzzleFlashScale>
-      </li>
-    </verbs>   
-    <tools>
-         
-    </tools>
-  </ThingDef> -->
-
 <Defs>
-  <ThingDef Name="GN2_BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
-    <weaponTags Inherit = "False">
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
-    <comps>
-      <li Class="CompProperties_BiocodableWeapon"/>
-    </comps>
-    <thingSetMakerTags Inherit = "False">
-      <li>RewardStandardMidFreq</li>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
-  </ThingDef>
-
 
   <!--===== ASh-12 =====-->
   <!--===== (_____) Similar to battle rifle less range more dmg =====-->
@@ -105,7 +19,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_AShTwelve</defName>
     <label>ASh-12 "Bear"</label>
     <description>Subsonic Russian battle rifle made to have high stopping power. This ShAK-12 includes a cobra sight, a laser aiming system and a sturdy foregrip.</description>
@@ -196,7 +110,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_ASVAL</defName>
     <label>AS VAL "Operator"</label>
     <description>Subsonic Russian assault rifle mostly used by Russian Spetsnaz on sabotage/behind enemy line operations. This AS VAL features an OKP 7 sight, extended magazine and a comfortable foregrip.</description>
@@ -290,7 +204,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_GMSix</defName>
     <label>GM6 "Lynx"</label>
     <description>If the government only lets you own 5 round mag rifles may as well make each bullet count. The GM6 is a light bullpup anti-material .50 BMG semi-automatic rifle that allows the possibility of off hand firing.</description>
@@ -370,7 +284,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_GThirtySix</defName>
     <label>G36 "Oberndorf"</label>
     <description>Widely used in Europe the G36 rifle is a polymer assault rifle made by the german company HK. This G36 features a Strikefire sight and a foregrip.</description>
@@ -456,7 +370,7 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <speed>40</speed>
-      <damageDef>GN_Bomb</damageDef>
+      <damageDef>Bomb</damageDef>
       <explosionRadius>1.9</explosionRadius>
       <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
@@ -465,7 +379,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_HKGL</defName>
     <label>M320 "Trooper"</label>
     <description>Single-shot 40 mm grenade launcher made as a replacement for the older M203. This M320 comes on the stan-alone configuration allowing to be used as a explosive sidearm.</description>
@@ -549,7 +463,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_SSMG</defName>
     <label>MG 338 "Norma"</label>
     <description>One of the newest LMGs the Sig Sauer MG 338 is designed to bridge the gap between the current machine gun calibers making use of the .338 Norma Mag while being lighter the M240.</description>
@@ -647,7 +561,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_SKS</defName>
     <label>SKS "Tapco"</label>
     <description>Soviet semi-automatic rifle, this SKS comes with the Tapco stock, a supressor, extended 35-round magazine, a foregrip and a frontal red dot sight.</description>
@@ -736,7 +650,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_NGFive</defName>
     <label>NG5 "Negev"</label>
     <description>The NG5 is the last iteration of the lmg commonly know by the name of an Isreali desert called Negev. This one comes with mag box,  a mid range scope and a bipod the shorter barrel and reciever makes this lmg easier to carry than the other variants.</description>
@@ -827,7 +741,7 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>GN_Bomb</damageDef>
+      <damageDef>Bomb</damageDef>
       <explosionRadius>1.5</explosionRadius>
       <speed>51</speed>
       <damageAmountBase>200</damageAmountBase>
@@ -836,7 +750,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_MThreeEOne</defName>
     <label>M3E1 "Carl Gustaf"</label>
     <description>Man-portable 84mm reusable anti-tank weapon. The M3E1 is the last iteration of the lightweight/low-cost weapon know as the Carl Gustaf recoilless rifle produced in Sweden.</description>
@@ -927,7 +841,7 @@
     <thingClass>Projectile_Explosive</thingClass>    
     <projectile>
       <speed>62</speed>
-      <damageDef>GN_Bomb</damageDef>
+      <damageDef>Bomb</damageDef>
       <explosionRadius>1</explosionRadius>
       <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
@@ -937,7 +851,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+  <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_Neopup</defName>
     <label>Neopup "PAW"</label>
     <description>The South African semi-automatic light cannon made by Denel. This weird looking firearm shots a custom explosive projectile while behaving more like a rifle than a regular grenade launcher.</description>

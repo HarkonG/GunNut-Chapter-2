@@ -1,3 +1,4 @@
+![Preview](/About/Preview.png)
 # Changelog
 
 ### 1.2.3(16/10/20)

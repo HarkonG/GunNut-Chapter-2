@@ -21,7 +21,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_AShTwelve</defName>
-    <label>ASh-12 "Bear"</label>
+    <label>ASh-12</label>
     <description>Subsonic Russian battle rifle made to have high stopping power. This ShAK-12 includes a cobra sight, a laser aiming system and a sturdy foregrip.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_AShTwelve</texPath>
@@ -112,7 +112,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_ASVAL</defName>
-    <label>AS VAL "Operator"</label>
+    <label>AS VAL</label>
     <description>Subsonic Russian assault rifle mostly used by Russian Spetsnaz on sabotage/behind enemy line operations. This AS VAL features an OKP 7 sight, extended magazine and a comfortable foregrip.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_ASVAL</texPath>
@@ -206,7 +206,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_GMSix</defName>
-    <label>GM6 "Lynx"</label>
+    <label>GM6</label>
     <description>If the government only lets you own 5 round mag rifles may as well make each bullet count. The GM6 is a light bullpup anti-material .50 BMG semi-automatic rifle that allows the possibility of off hand firing.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_GMSix</texPath>
@@ -286,7 +286,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_GThirtySix</defName>
-    <label>G36 "Oberndorf"</label>
+    <label>G36</label>
     <description>Widely used in Europe the G36 rifle is a polymer assault rifle made by the german company HK. This G36 features a Strikefire sight and a foregrip.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_GThirtySix</texPath>
@@ -381,7 +381,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_HKGL</defName>
-    <label>M320 "Trooper"</label>
+    <label>M320</label>
     <description>Single-shot 40 mm grenade launcher made as a replacement for the older M203. This M320 comes on the stan-alone configuration allowing to be used as a explosive sidearm.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_HKGL</texPath>
@@ -465,7 +465,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_SSMG</defName>
-    <label>MG 338 "Norma"</label>
+    <label>MG 338</label>
     <description>One of the newest LMGs the Sig Sauer MG 338 is designed to bridge the gap between the current machine gun calibers making use of the .338 Norma Mag while being lighter the M240.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_SSMG</texPath>
@@ -563,7 +563,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_SKS</defName>
-    <label>SKS "Tapco"</label>
+    <label>SKS</label>
     <description>Soviet semi-automatic rifle, this SKS comes with the Tapco stock, a supressor, extended 35-round magazine, a foregrip and a frontal red dot sight.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_SKS</texPath>
@@ -652,7 +652,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_NGFive</defName>
-    <label>NG5 "Negev"</label>
+    <label>NG5</label>
     <description>The NG5 is the last iteration of the lmg commonly know by the name of an Isreali desert called Negev. This one comes with mag box,  a mid range scope and a bipod the shorter barrel and reciever makes this lmg easier to carry than the other variants.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_NGFive</texPath>
@@ -752,7 +752,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_MThreeEOne</defName>
-    <label>M3E1 "Carl Gustaf"</label>
+    <label>M3E1</label>
     <description>Man-portable 84mm reusable anti-tank weapon. The M3E1 is the last iteration of the lightweight/low-cost weapon know as the Carl Gustaf recoilless rifle produced in Sweden.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_MThreeEOne</texPath>
@@ -853,7 +853,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_Neopup</defName>
-    <label>Neopup "PAW"</label>
+    <label>Neopup</label>
     <description>The South African semi-automatic light cannon made by Denel. This weird looking firearm shots a custom explosive projectile while behaving more like a rifle than a regular grenade launcher.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_Neopup</texPath>

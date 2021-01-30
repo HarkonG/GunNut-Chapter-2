@@ -548,7 +548,7 @@
   <!--===== A better semi-automatic carbine =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>GN_Bullet_SKS</defName>
-    <label>SKS bullet</label>
+    <label>Custom SKS bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -563,7 +563,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_SKS</defName>
-    <label>SKS</label>
+    <label>Custom SKS</label>
     <description>Soviet semi-automatic rifle, this SKS comes with the Tapco stock, a supressor, extended 35-round magazine, a foregrip and a frontal red dot sight.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_SKS</texPath>

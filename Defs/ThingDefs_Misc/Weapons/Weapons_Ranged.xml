@@ -447,7 +447,7 @@
   <!--===== MG 338 =====-->
   <!--===== (LMG) More damage more range slower =====-->
 
-  <ThingDef ParentName="BaseBullet">
+  <!--<ThingDef ParentName="BaseBullet">
     <defName>GN_Bullet_SSMG</defName>
     <label>MG 338 bullet</label>
     <graphicData>
@@ -542,7 +542,7 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--===== SKS =====-->
   <!--===== A better semi-automatic carbine =====-->

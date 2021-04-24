@@ -20,8 +20,7 @@
                     defName = "GN_SKS" or
                     defName = "GN_NGFive" or
                     defName = "GN_MThreeEOne" or
-                    defName = "GN_Neopup" or                    
-                    defName = "GN_SSMG"]/tools
+                    defName = "GN_Neopup"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -278,7 +277,7 @@
                     </weaponTags>
                 </li>
 
-                <!--===== MG 338 =====-->
+                <!--===== MG 338 =====
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>GN_SSMG</defName>
                     <statBases>
@@ -322,7 +321,7 @@
                     <weaponTags>
                         <li>CE_MachineGun</li>
                     </weaponTags>
-                </li>
+                </li>-->
 
                 <!--===== SKS =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">

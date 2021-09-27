@@ -12,15 +12,17 @@
                 <li Class="PatchOperationReplace">
                     <xpath>
 				    /Defs/ThingDef[
-					defName = "GN_AShTwelve" or
-					defName = "GN_ASVAL" or
-					defName = "GN_GMSix" or
-					defName = "GN_GThirtySix" or
-                    defName = "GN_HKGL" or
-                    defName = "GN_SKS" or
-                    defName = "GN_NGFive" or
-                    defName = "GN_MThreeEOne" or
-                    defName = "GN_Neopup"]/tools
+					defName = "HRK_AShTwelve" or
+					defName = "HRK_ASVAL" or
+					defName = "HRK_GMSix" or
+					defName = "HRK_GThirtySix" or
+                    defName = "HRK_HKGL" or
+                    defName = "HRK_SKS" or
+                    defName = "HRK_NGFive" or
+                    defName = "HRK_MThreeEOne" or
+                    defName = "HRK_Neopup" or
+                    defName = "GN_PNinety" or				                   
+                    defName = "GN_KSTwentyThree"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -61,7 +63,7 @@
 
                 <!--===== ASh-12 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_AShTwelve</defName>
+                    <defName>HRK_AShTwelve</defName>
                     <statBases>
                         <WorkToMake>29000</WorkToMake>
                         <Mass>3.2</Mass>
@@ -84,7 +86,7 @@
                         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                         <warmupTime>1.0</warmupTime>
                         <range>50</range>
-                        <soundCast>GN_Shot_AShTwelve</soundCast>
+                        <soundCast>HRK_Shot_AShTwelve</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>2.0</recoilAmount>
@@ -106,7 +108,7 @@
 
                 <!--===== AS VAL =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_ASVAL</defName>
+                    <defName>HRK_ASVAL</defName>
                     <statBases>
                         <WorkToMake>30000</WorkToMake>
                         <Mass>2.52</Mass>
@@ -129,7 +131,7 @@
                         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
                         <warmupTime>1.0</warmupTime>
                         <range>48</range>
-                        <soundCast>GN_Shot_ASVAL</soundCast>
+                        <soundCast>HRK_Shot_ASVAL</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>1.1</recoilAmount>
@@ -151,7 +153,7 @@
 
                 <!--===== GM6 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_GMSix</defName>
+                    <defName>HRK_GMSix</defName>
                     <statBases>
                         <Mass>13.50</Mass>
                         <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
@@ -172,7 +174,7 @@
                         <defaultProjectile>Bullet_50BMG_FMJ</defaultProjectile>
                         <warmupTime>1.4</warmupTime>
                         <range>57</range>
-                        <soundCast>GN_Shot_GMSix</soundCast>
+                        <soundCast>HRK_Shot_GMSix</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                     </Properties>
@@ -185,13 +187,13 @@
                         <aiAimMode>AimedShot</aiAimMode>
                     </FireModes>
                     <weaponTags>
-                        <li>OP</li>
+                        <li>GunHeavy</li>
                     </weaponTags>
                 </li>
 
                 <!--===== G36 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_GThirtySix</defName>
+                    <defName>HRK_GThirtySix</defName>
                     <statBases>
                         <WorkToMake>32000</WorkToMake>
                         <Mass>3.1</Mass>
@@ -214,7 +216,7 @@
                         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
                         <warmupTime>1.1</warmupTime>
                         <range>58</range>
-                        <soundCast>GN_Shot_GThirtySix</soundCast>
+                        <soundCast>HRK_Shot_GThirtySix</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>1.53</recoilAmount>
@@ -236,7 +238,7 @@
 
                 <!--===== M320 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_HKGL</defName>
+                    <defName>HRK_HKGL</defName>
                     <statBases>
                         <Mass>3.2</Mass>
                         <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
@@ -257,7 +259,7 @@
                         <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
                         <warmupTime>1</warmupTime>
                         <range>38</range>
-                        <soundCast>GN_Shot_HKGL</soundCast>
+                        <soundCast>HRK_Shot_HKGL</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <targetParams>
@@ -277,55 +279,9 @@
                     </weaponTags>
                 </li>
 
-                <!--===== MG 338 =====
-                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_SSMG</defName>
-                    <statBases>
-                        <WorkToMake>38000</WorkToMake>
-                        <Mass>8</Mass>
-                        <Bulk>14.0</Bulk>
-                        <SwayFactor>1.30</SwayFactor>
-                        <ShotSpread>0.05</ShotSpread>
-                        <SightsEfficiency>1.1</SightsEfficiency>
-                        <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
-                    </statBases>
-                    <costList>
-                        <Steel>85</Steel>
-                        <ComponentIndustrial>6</ComponentIndustrial>
-                        <Chemfuel>15</Chemfuel>
-                    </costList>
-                    <Properties>
-                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-                        <hasStandardCommand>True</hasStandardCommand>
-                        <defaultProjectile>Bullet_338Norma_FMJ</defaultProjectile>
-                        <burstShotCount>7</burstShotCount>
-                        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
-                        <warmupTime>1.1</warmupTime>
-                        <range>70</range>
-                        <soundCast>GN_Shot_SSMG</soundCast>
-                        <soundCastTail>GunTail_Heavy</soundCastTail>
-                        <muzzleFlashScale>9</muzzleFlashScale>
-                        <recoilAmount>1.55</recoilAmount>
-                        <recoilPattern>Mounted</recoilPattern>
-                    </Properties>
-                    <AmmoUser>
-                        <magazineSize>100</magazineSize>
-                        <reloadTime>6.5</reloadTime>
-                        <ammoSet>AmmoSet_338Norma</ammoSet>
-                    </AmmoUser>
-                    <FireModes>
-                        <aiUseBurstMode>FALSE</aiUseBurstMode>
-                        <aiAimMode>SuppressFire</aiAimMode>
-                        <aimedBurstShotCount>3</aimedBurstShotCount>
-                    </FireModes>
-                    <weaponTags>
-                        <li>CE_MachineGun</li>
-                    </weaponTags>
-                </li>-->
-
                 <!--===== SKS =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_SKS</defName>
+                    <defName>HRK_SKS</defName>
                     <statBases>
                         <WorkToMake>19500</WorkToMake>
                         <Mass>4</Mass>
@@ -346,7 +302,7 @@
                         <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
                         <warmupTime>1.1</warmupTime>
                         <range>54</range>
-                        <soundCast>GN_Shot_SKS</soundCast>
+                        <soundCast>HRK_Shot_SKS</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <targetParams>
@@ -368,7 +324,7 @@
 
                 <!--===== Negev =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_NGFive</defName>
+                    <defName>HRK_NGFive</defName>
                     <statBases>
                         <WorkToMake>38000</WorkToMake>
                         <Mass>7.5</Mass>
@@ -391,7 +347,7 @@
                         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                         <warmupTime>1.2</warmupTime>
                         <range>64</range>
-                        <soundCast>GN_Shot_NGFive</soundCast>
+                        <soundCast>HRK_Shot_NGFive</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilPattern>Mounted</recoilPattern>
@@ -412,9 +368,8 @@
                 </li>
 
                 <!-- ========== M3E1 "Carl Gustaf" ========== -->
-
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_MThreeEOne</defName>
+                    <defName>HRK_MThreeEOne</defName>
                     <statBases>
                         <WorkToMake>29500</WorkToMake>
                         <Mass>7</Mass>
@@ -437,7 +392,7 @@
                         <range>55</range>
                         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
                         <minRange>5</minRange>
-                        <soundCast>GN_Shot_MThreeEOne</soundCast>
+                        <soundCast>HRK_Shot_MThreeEOne</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
                         <muzzleFlashScale>14</muzzleFlashScale>
                         <targetParams>
@@ -460,7 +415,7 @@
 
                 <!--===== Neopup PAW =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_Neopup</defName>
+                    <defName>HRK_Neopup</defName>
                     <statBases>
                         <WorkToMake>19500</WorkToMake>
                         <Mass>6</Mass>
@@ -480,8 +435,8 @@
                         <hasStandardCommand>True</hasStandardCommand>
                         <defaultProjectile>Bullet_20x42mmGrenade_HE</defaultProjectile>
                         <warmupTime>1.1</warmupTime>
-                        <range>54</range>                        
-                        <soundCast>GN_Shot_Neopup</soundCast>
+                        <range>54</range>
+                        <soundCast>HRK_Shot_Neopup</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>3.2</recoilAmount>
@@ -496,6 +451,93 @@
                     </FireModes>
                     <weaponTags>
                         <li>CE_AI_Rifle</li>
+                    </weaponTags>
+                </li>
+
+                <!--===== P90 =====-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>HRK_PNinety</defName>
+                    <statBases>
+                        <WorkToMake>13000</WorkToMake>
+                        <SightsEfficiency>1.1</SightsEfficiency>
+                        <ShotSpread>0.10</ShotSpread>
+                        <SwayFactor>0.60</SwayFactor>
+                        <Bulk>6.60</Bulk>
+                        <Mass>2.55</Mass>
+                        <RangedWeapon_Cooldown>0.34</RangedWeapon_Cooldown>
+                    </statBases>
+                    <costList>
+                        <Steel>45</Steel>
+                        <ComponentIndustrial>4</ComponentIndustrial>
+                        <Chemfuel>20</Chemfuel>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>Bullet_FN57x28mm_FMJ</defaultProjectile>
+                        <warmupTime>0.4</warmupTime>
+                        <range>22</range>
+                        <burstShotCount>6</burstShotCount>
+                        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                        <soundCast>HRK_Shot_PNinety</soundCast>
+                        <soundCastTail>GunTail_Light</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                        <recoilPattern>Regular</recoilPattern>
+                        <recoilAmount>1.14</recoilAmount>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>50</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_FN57x28mm</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiUseBurstMode>True</aiUseBurstMode>
+                        <aiAimMode>AimedShot</aiAimMode>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                    </FireModes>
+                    <weaponTags>
+                        <li>IndustrialGunAdvanced</li>
+                        <li>CE_Sidearm</li>
+                        <li>CE_OneHandedWeapon</li>
+                    </weaponTags>
+                </li>
+
+                <!--===== KS-23 =====-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>HRK_KSTwentyThree</defName>
+                    <statBases>
+                        <Mass>3.2</Mass>
+                        <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+                        <ShotSpread>0.14</ShotSpread>
+                        <SwayFactor>1.20</SwayFactor>
+                        <Bulk>9.0</Bulk>
+                        <SightsEfficiency>1</SightsEfficiency>
+                        <WorkToMake>9500</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>30</Steel>
+                        <Chemfuel>10</Chemfuel>
+                        <ComponentIndustrial>1</ComponentIndustrial>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_23x75mmR_Buck</defaultProjectile>
+                        <warmupTime>0.6</warmupTime>
+                        <range>16</range>
+                        <soundCast>Shot_Shotgun</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>4</magazineSize>
+                        <reloadOneAtATime>true</reloadOneAtATime>
+                        <reloadTime>0.85</reloadTime>
+                        <ammoSet>AmmoSet_23x75mmR</ammoSet>
+                    </AmmoUser>
+                    <FireModes />
+                    <weaponTags>
+                        <li>CE_AI_AssaultWeapon</li>
                     </weaponTags>
                 </li>
 

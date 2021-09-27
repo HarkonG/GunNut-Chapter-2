@@ -2,7 +2,7 @@
 
 <Defs>
     <SoundDef>
-        <defName>GN_Shot_AShTwelve</defName>
+        <defName>HRK_Shot_AShTwelve</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -10,7 +10,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_AShTwelve</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_AShTwelve</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -27,7 +27,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_ASVAL</defName>
+        <defName>HRK_Shot_ASVAL</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -35,7 +35,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_ASVAL</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_ASVAL</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -52,7 +52,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_GMSix</defName>
+        <defName>HRK_Shot_GMSix</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -60,7 +60,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_GMSix</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_GMSix</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -77,7 +77,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_GThirtySix</defName>
+        <defName>HRK_Shot_GThirtySix</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -85,7 +85,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_GThirtySix</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_GThirtySix</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -102,7 +102,7 @@
     </SoundDef>
     
     <SoundDef>
-        <defName>GN_Shot_SSMG</defName>
+        <defName>HRK_Shot_SSMG</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -110,7 +110,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_SSMG</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_SSMG</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -127,7 +127,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_SKS</defName>
+        <defName>HRK_Shot_SKS</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -135,7 +135,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_SKS</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_SKS</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -152,7 +152,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_NGFive</defName>
+        <defName>HRK_Shot_NGFive</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -160,7 +160,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_NGFive</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_NGFive</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -177,7 +177,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_Neopup</defName>
+        <defName>HRK_Shot_Neopup</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -185,7 +185,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_Neopup</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_Neopup</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -202,7 +202,7 @@
     </SoundDef>    
 
     <SoundDef>
-        <defName>GN_Shot_MThreeEOne</defName>
+        <defName>HRK_Shot_MThreeEOne</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -210,7 +210,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_Launcher</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_Launcher</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -227,7 +227,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_HKGL</defName>
+        <defName>HRK_Shot_HKGL</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -235,7 +235,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_HKGL</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_HKGL</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -249,5 +249,55 @@
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>    
+    </SoundDef>
+    
+    <SoundDef>
+        <defName>HRK_Shot_KSTwentyThree</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Shot_KSTwentyThree</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Shot_PNinety</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Shot_PNinety</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
 </Defs>    

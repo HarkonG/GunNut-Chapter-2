@@ -90,6 +90,12 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <HuntingStealth>0.15</HuntingStealth>
+    </equippedStatOffsets>
   </ThingDef>
 
   <!--===== AS VAL =====-->
@@ -179,6 +185,12 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <HuntingStealth>0.15</HuntingStealth>
+    </equippedStatOffsets>
   </ThingDef>
 
   <!--===== GM6 =====-->
@@ -271,6 +283,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
   </ThingDef>
 
   <!--===== G36 =====-->
@@ -359,6 +374,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
   </ThingDef>
 
   <!--===== M320 =====-->
@@ -445,6 +463,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>GunHeavy</li>
+    </weaponTags>
   </ThingDef>
 
   <!--===== SKS =====-->
@@ -533,6 +554,12 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <HuntingStealth>0.15</HuntingStealth>
+    </equippedStatOffsets>
   </ThingDef>
 
   <!--===== Negev =====-->
@@ -589,9 +616,6 @@
       <Chemfuel>10</Chemfuel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
-    <weaponTags Inherit="False">
-      <li>GunHeavy</li>
-    </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -625,6 +649,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>GunHeavy</li>
+    </weaponTags>
   </ThingDef>
 
   <!--===== M3E1 "Carl Gustaf" =====-->
@@ -682,9 +709,6 @@
       <Chemfuel>20</Chemfuel>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
-    <weaponTags Inherit="False">
-      <li>GunHeavy</li>
-    </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -715,6 +739,9 @@
         <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>GunHeavy</li>
+    </weaponTags>
   </ThingDef>
 
   <!--===== Neopup PAW =====-->
@@ -810,6 +837,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>GunHeavy</li>
+    </weaponTags>
   </ThingDef>
 
   <!--===== P90 =====-->
@@ -895,6 +925,12 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <HuntingStealth>0.15</HuntingStealth>
+    </equippedStatOffsets>
   </ThingDef>
 
   <!--===== KS-23 =====-->
@@ -959,10 +995,7 @@
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
-    </verbs>
-    <weaponTags>
-      <li>Gun</li>
-    </weaponTags>
+    </verbs>    
     <tools>
       <li>
         <label>barrel</label>
@@ -974,6 +1007,9 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <weaponTags>
+      <li>SimpleGun</li>
+    </weaponTags>
   </ThingDef>
 
 </Defs>

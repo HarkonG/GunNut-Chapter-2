@@ -21,8 +21,8 @@
                     defName = "HRK_NGFive" or
                     defName = "HRK_MThreeEOne" or
                     defName = "HRK_Neopup" or
-                    defName = "GN_PNinety" or				                   
-                    defName = "GN_KSTwentyThree"]/tools
+                    defName = "HRK_PNinety" or				                   
+                    defName = "HRK_KSTwentyThree"]/tools
                     </xpath>
                     <value>
                         <tools>

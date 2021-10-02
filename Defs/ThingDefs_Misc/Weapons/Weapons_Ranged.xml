@@ -197,7 +197,7 @@
   <!--===== (Anti-Material Rifle) Same dmg, less range, faster OP =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_GMSix</defName>
-    <label>GM6 bullet</label>
+    <label>GM6 Lynx bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -213,7 +213,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_GMSix</defName>
-    <label>GM6</label>
+    <label>GM6 Lynx</label>
     <description>If the government only lets you own 5 round mag rifles may as well make each bullet count. The GM6 is a light bullpup anti-material .50 BMG semi-automatic rifle that allows the possibility of off hand firing.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_GMSix</texPath>
@@ -292,7 +292,7 @@
   <!--===== (AR) Similar, better =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_GThirtySix</defName>
-    <label>G36 bullet</label>
+    <label>G36C bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -306,7 +306,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_GThirtySix</defName>
-    <label>G36</label>
+    <label>G36C</label>
     <description>Widely used in Europe the G36 rifle is a polymer assault rifle made by the german company HK. This G36 features a Strikefire sight and a foregrip.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_GThirtySix</texPath>
@@ -383,7 +383,7 @@
   <!--===== (Grenade launcher) Lighter, less range, slower =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_HKGL</defName>
-    <label>M320 grenade</label>
+    <label>M320 GL grenade</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -402,614 +402,614 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_HKGL</defName>
-    <label>M320</label>
-    <description>Single-shot 40 mm grenade launcher made as a replacement for the older M203. This M320 comes on the stan-alone configuration allowing to be used as a explosive sidearm.</description>
-    <graphicData>
-      <texPath>Things/Weapons/HRK_HKGL</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <generateCommonality>0.3</generateCommonality>
-    <statBases>
-      <WorkToMake>8000</WorkToMake>
-      <Mass>1.2</Mass>
-      <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel>55</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-    </costList>
-    <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_HKGL</defaultProjectile>
-        <warmupTime>2.5</warmupTime>
-        <range>15</range>
-        <forcedMissRadius>1.2</forcedMissRadius>
-        <soundCast>HRK_Shot_HKGL</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>14</muzzleFlashScale>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>GunHeavy</li>
-    </weaponTags>
-  </ThingDef>
+    <label>M320 GL </label>
+      <description>Single-shot 40 mm grenade launcher made as a replacement for the older M203. This M320 comes on the stan-alone configuration allowing to be used as a explosive sidearm.</description>
+      <graphicData>
+        <texPath>Things/Weapons/HRK_HKGL</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Interact_Rifle</soundInteract>
+      <generateCommonality>0.3</generateCommonality>
+      <statBases>
+        <WorkToMake>8000</WorkToMake>
+        <Mass>1.2</Mass>
+        <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+      </statBases>
+      <costList>
+        <Steel>55</Steel>
+        <ComponentIndustrial>3</ComponentIndustrial>
+      </costList>
+      <recipeMaker>
+        <recipeUsers>
+          <li>TableMachining</li>
+        </recipeUsers>
+        <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
+        <skillRequirements>
+          <Crafting>4</Crafting>
+        </skillRequirements>
+      </recipeMaker>
+      <verbs>
+        <li>
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>HRK_Bullet_HKGL</defaultProjectile>
+          <warmupTime>2.5</warmupTime>
+          <range>15</range>
+          <forcedMissRadius>1.2</forcedMissRadius>
+          <soundCast>HRK_Shot_HKGL</soundCast>
+          <soundCastTail>GunTail_Medium</soundCastTail>
+          <muzzleFlashScale>14</muzzleFlashScale>
+          <targetParams>
+            <canTargetLocations>true</canTargetLocations>
+          </targetParams>
+        </li>
+      </verbs>
+      <tools>
+        <li>
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+          <label>barrel</label>
+          <capacities>
+            <li>Blunt</li>
+            <li>Poke</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+      </tools>
+      <weaponTags>
+        <li>GunHeavy</li>
+      </weaponTags>
+    </ThingDef>
 
-  <!--===== SKS =====-->
-  <!--===== A better semi-automatic carbine =====-->
-  <ThingDef ParentName="BaseBullet">
-    <defName>HRK_Bullet_SKS</defName>
-    <label>Custom SKS bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-      <stoppingPower>1.5</stoppingPower>
-      <speed>60</speed>
-    </projectile>
-  </ThingDef>
+    <!--===== SKS =====-->
+    <!--===== A better semi-automatic carbine =====-->
+    <ThingDef ParentName="BaseBullet">
+      <defName>HRK_Bullet_SKS</defName>
+      <label>Tapco SKS bullet</label>
+      <graphicData>
+        <texPath>Things/Projectile/Bullet_Small</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>15</damageAmountBase>
+        <stoppingPower>1.5</stoppingPower>
+        <speed>60</speed>
+      </projectile>
+    </ThingDef>
 
-  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-    <defName>HRK_SKS</defName>
-    <label>Custom SKS</label>
-    <description>Soviet semi-automatic rifle, this SKS comes with the Tapco stock, a supressor, extended 35-round magazine, a foregrip and a frontal red dot sight.</description>
-    <graphicData>
-      <texPath>Things/Weapons/HRK_SKS</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.0</drawSize>
-      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
-      <drawOffsetEast>(0.05, 0.0, 0.0)</drawOffsetEast>
-      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
-      <drawOffsetWest>(-0.05, 0.0, 0.0)</drawOffsetWest>
-    </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <statBases>
-      <WorkToMake>13000</WorkToMake>
-      <Mass>3</Mass>
-      <AccuracyTouch>0.70</AccuracyTouch>
-      <AccuracyShort>0.75</AccuracyShort>
-      <AccuracyMedium>0.80</AccuracyMedium>
-      <AccuracyLong>0.68</AccuracyLong>
-      <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel>65</Steel>
-      <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_SKS</defaultProjectile>
-        <warmupTime>1</warmupTime>
-        <range>31.2</range>
-        <soundCast>HRK_Shot_SKS</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
-    <equippedStatOffsets>
-      <HuntingStealth>0.15</HuntingStealth>
-    </equippedStatOffsets>
-  </ThingDef>
+    <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+      <defName>HRK_SKS</defName>
+      <label>Tapco SKS</label>
+      <description>Soviet semi-automatic rifle, this SKS comes with the Tapco stock, a supressor, extended 35-round magazine, a foregrip and a frontal red dot sight.</description>
+      <graphicData>
+        <texPath>Things/Weapons/HRK_SKS</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.0</drawSize>
+        <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
+        <drawOffsetEast>(0.05, 0.0, 0.0)</drawOffsetEast>
+        <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
+        <drawOffsetWest>(-0.05, 0.0, 0.0)</drawOffsetWest>
+      </graphicData>
+      <equippedAngleOffset>45</equippedAngleOffset>
+      <soundInteract>Interact_Rifle</soundInteract>
+      <recipeMaker>
+        <recipeUsers>
+          <li>TableMachining</li>
+        </recipeUsers>
+        <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
+        <skillRequirements>
+          <Crafting>6</Crafting>
+        </skillRequirements>
+      </recipeMaker>
+      <statBases>
+        <WorkToMake>13000</WorkToMake>
+        <Mass>3</Mass>
+        <AccuracyTouch>0.70</AccuracyTouch>
+        <AccuracyShort>0.75</AccuracyShort>
+        <AccuracyMedium>0.80</AccuracyMedium>
+        <AccuracyLong>0.68</AccuracyLong>
+        <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+      </statBases>
+      <costList>
+        <Steel>65</Steel>
+        <Chemfuel>10</Chemfuel>
+        <ComponentIndustrial>3</ComponentIndustrial>
+      </costList>
+      <verbs>
+        <li>
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>HRK_Bullet_SKS</defaultProjectile>
+          <warmupTime>1</warmupTime>
+          <range>31.2</range>
+          <soundCast>HRK_Shot_SKS</soundCast>
+          <soundCastTail>GunTail_Medium</soundCastTail>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </li>
+      </verbs>
+      <tools>
+        <li>
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+          <label>barrel</label>
+          <capacities>
+            <li>Blunt</li>
+            <li>Poke</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+      </tools>
+      <weaponTags>
+        <li>IndustrialGunAdvanced</li>
+      </weaponTags>
+      <equippedStatOffsets>
+        <HuntingStealth>0.15</HuntingStealth>
+      </equippedStatOffsets>
+    </ThingDef>
 
-  <!--===== Negev =====-->
-  <!--===== Lighter, fast firing LMG =====-->
-  <ThingDef ParentName="BaseBullet">
-    <defName>HRK_Bullet_NGFive</defName>
-    <label>NG5 bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>10</damageAmountBase>
-      <speed>46</speed>
-    </projectile>
-  </ThingDef>
+    <!--===== Negev =====-->
+    <!--===== Lighter, fast firing LMG =====-->
+    <ThingDef ParentName="BaseBullet">
+      <defName>HRK_Bullet_NGFive</defName>
+      <label>NG5 Negev bullet</label>
+      <graphicData>
+        <texPath>Things/Projectile/Bullet_Small</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>10</damageAmountBase>
+        <speed>46</speed>
+      </projectile>
+    </ThingDef>
 
-  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-    <defName>HRK_NGFive</defName>
-    <label>NG5</label>
-    <description>The NG5 is the last iteration of the lmg commonly know by the name of an Isreali desert called Negev. This one comes with mag box,  a mid range scope and a bipod the shorter barrel and reciever makes this lmg easier to carry than the other variants.</description>
-    <graphicData>
-      <texPath>Things/Weapons/HRK_NGFive</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.0</drawSize>
-      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
-      <drawOffsetEast>(0.05, 0.0, 0.0)</drawOffsetEast>
-      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
-      <drawOffsetWest>(-0.05, 0.0, 0.0)</drawOffsetWest>
-    </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <statBases>
-      <WorkToMake>32000</WorkToMake>
-      <Mass>6</Mass>
-      <AccuracyTouch>0.50</AccuracyTouch>
-      <AccuracyShort>0.52</AccuracyShort>
-      <AccuracyMedium>0.42</AccuracyMedium>
-      <AccuracyLong>0.32</AccuracyLong>
-      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel>70</Steel>
-      <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>5</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_NGFive</defaultProjectile>
-        <warmupTime>1.5</warmupTime>
-        <range>22</range>
-        <burstShotCount>7</burstShotCount>
-        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>HRK_Shot_NGFive</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>GunHeavy</li>
-    </weaponTags>
-  </ThingDef>
+    <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+      <defName>HRK_NGFive</defName>
+      <label>NG5 Negev</label>
+      <description>The NG5 is the last iteration of the lmg commonly know by the name of an Isreali desert called Negev. This one comes with mag box,  a mid range scope and a bipod the shorter barrel and reciever makes this lmg easier to carry than the other variants.</description>
+      <graphicData>
+        <texPath>Things/Weapons/HRK_NGFive</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.0</drawSize>
+        <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
+        <drawOffsetEast>(0.05, 0.0, 0.0)</drawOffsetEast>
+        <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
+        <drawOffsetWest>(-0.05, 0.0, 0.0)</drawOffsetWest>
+      </graphicData>
+      <equippedAngleOffset>45</equippedAngleOffset>
+      <soundInteract>Interact_Rifle</soundInteract>
+      <recipeMaker>
+        <recipeUsers>
+          <li>TableMachining</li>
+        </recipeUsers>
+        <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
+        <skillRequirements>
+          <Crafting>6</Crafting>
+        </skillRequirements>
+      </recipeMaker>
+      <statBases>
+        <WorkToMake>32000</WorkToMake>
+        <Mass>6</Mass>
+        <AccuracyTouch>0.50</AccuracyTouch>
+        <AccuracyShort>0.52</AccuracyShort>
+        <AccuracyMedium>0.42</AccuracyMedium>
+        <AccuracyLong>0.32</AccuracyLong>
+        <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+      </statBases>
+      <costList>
+        <Steel>70</Steel>
+        <Chemfuel>10</Chemfuel>
+        <ComponentIndustrial>5</ComponentIndustrial>
+      </costList>
+      <verbs>
+        <li>
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>HRK_Bullet_NGFive</defaultProjectile>
+          <warmupTime>1.5</warmupTime>
+          <range>22</range>
+          <burstShotCount>7</burstShotCount>
+          <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+          <soundCast>HRK_Shot_NGFive</soundCast>
+          <soundCastTail>GunTail_Medium</soundCastTail>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </li>
+      </verbs>
+      <tools>
+        <li>
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+          <label>barrel</label>
+          <capacities>
+            <li>Blunt</li>
+            <li>Poke</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+      </tools>
+      <weaponTags>
+        <li>GunHeavy</li>
+      </weaponTags>
+    </ThingDef>
 
-  <!--===== M3E1 "Carl Gustaf" =====-->
-  <!--===== (__________) =====-->
-  <ThingDef ParentName="BaseBullet">
-    <defName>HRK_Bullet_MThreeEOne</defName>
-    <label>M3E1 rocket blast</label>
-    <graphicData>
-      <texPath>Ammo/M3E1/HEAT_Bullet</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>TransparentPostLight</shaderType>
-    </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <damageDef>Bomb</damageDef>
-      <explosionRadius>1.5</explosionRadius>
-      <speed>51</speed>
-      <damageAmountBase>200</damageAmountBase>
-      <stoppingPower>5</stoppingPower>
-      <armorPenetrationBase>3</armorPenetrationBase>
-    </projectile>
-  </ThingDef>
+    <!--===== M3E1 "Carl Gustaf" =====-->
+    <!--===== (__________) =====-->
+    <ThingDef ParentName="BaseBullet">
+      <defName>HRK_Bullet_MThreeEOne</defName>
+      <label>M3E1 rocket blast</label>
+      <graphicData>
+        <texPath>Ammo/M3E1/HEAT_Bullet</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>TransparentPostLight</shaderType>
+      </graphicData>
+      <thingClass>Projectile_Explosive</thingClass>
+      <projectile>
+        <damageDef>Bomb</damageDef>
+        <explosionRadius>1.5</explosionRadius>
+        <speed>51</speed>
+        <damageAmountBase>200</damageAmountBase>
+        <stoppingPower>5</stoppingPower>
+        <armorPenetrationBase>3</armorPenetrationBase>
+      </projectile>
+    </ThingDef>
 
-  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-    <defName>HRK_MThreeEOne</defName>
-    <label>M3E1</label>
-    <description>Man-portable 84mm reusable anti-tank weapon. The M3E1 is the last iteration of the lightweight/low-cost weapon know as the Carl Gustaf recoilless rifle produced in Sweden.</description>
-    <graphicData>
-      <texPath>Things/Weapons/HRK_MThreeEOne</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.0</drawSize>
-      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
-      <drawOffsetEast>(-0.2, 0.0, 0.05)</drawOffsetEast>
-      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
-      <drawOffsetWest>(0.2, 0.0, 0.05)</drawOffsetWest>
-    </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>10</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <statBases>
-      <WorkToMake>55000</WorkToMake>
-      <Mass>3</Mass>
-      <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel>125</Steel>
-      <Chemfuel>20</Chemfuel>
-      <ComponentIndustrial>4</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <forcedMissRadius>1</forcedMissRadius>
-        <defaultProjectile>HRK_Bullet_MThreeEOne</defaultProjectile>
-        <warmupTime>3.5</warmupTime>
-        <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
-        <range>40</range>
-        <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
-        <burstShotCount>1</burstShotCount>
-        <soundCast>HRK_Shot_MThreeEOne</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <onlyManualCast>false</onlyManualCast>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <muzzleFlashScale>15</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>11.7</power>
-        <cooldownTime>2.6</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>GunHeavy</li>
-    </weaponTags>
-  </ThingDef>
+    <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+      <defName>HRK_MThreeEOne</defName>
+      <label>M3E1</label>
+      <description>Man-portable 84mm reusable anti-tank weapon. The M3E1 is the last iteration of the lightweight/low-cost weapon know as the Carl Gustaf recoilless rifle produced in Sweden.</description>
+      <graphicData>
+        <texPath>Things/Weapons/HRK_MThreeEOne</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.0</drawSize>
+        <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
+        <drawOffsetEast>(-0.2, 0.0, 0.05)</drawOffsetEast>
+        <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
+        <drawOffsetWest>(0.2, 0.0, 0.05)</drawOffsetWest>
+      </graphicData>
+      <equippedAngleOffset>45</equippedAngleOffset>
+      <soundInteract>Interact_Rifle</soundInteract>
+      <recipeMaker>
+        <recipeUsers>
+          <li>TableMachining</li>
+        </recipeUsers>
+        <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
+        <skillRequirements>
+          <Crafting>10</Crafting>
+        </skillRequirements>
+      </recipeMaker>
+      <statBases>
+        <WorkToMake>55000</WorkToMake>
+        <Mass>3</Mass>
+        <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
+      </statBases>
+      <costList>
+        <Steel>125</Steel>
+        <Chemfuel>20</Chemfuel>
+        <ComponentIndustrial>4</ComponentIndustrial>
+      </costList>
+      <verbs>
+        <li>
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <forcedMissRadius>1</forcedMissRadius>
+          <defaultProjectile>HRK_Bullet_MThreeEOne</defaultProjectile>
+          <warmupTime>3.5</warmupTime>
+          <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+          <range>40</range>
+          <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+          <burstShotCount>1</burstShotCount>
+          <soundCast>HRK_Shot_MThreeEOne</soundCast>
+          <soundCastTail>GunTail_Heavy</soundCastTail>
+          <onlyManualCast>false</onlyManualCast>
+          <targetParams>
+            <canTargetLocations>true</canTargetLocations>
+          </targetParams>
+          <muzzleFlashScale>15</muzzleFlashScale>
+        </li>
+      </verbs>
+      <tools>
+        <li>
+          <label>barrel</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>11.7</power>
+          <cooldownTime>2.6</cooldownTime>
+        </li>
+      </tools>
+      <weaponTags>
+        <li>GunHeavy</li>
+      </weaponTags>
+    </ThingDef>
 
-  <!--===== Neopup PAW =====-->
-  <!--===== (__________) =====-->
-  <ThingDef ParentName="BaseBullet">
-    <defName>HRK_Bullet_Neopup</defName>
-    <label>Neopup explosive bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Big</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <speed>62</speed>
-      <damageDef>Bomb</damageDef>
-      <explosionRadius>1</explosionRadius>
-      <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
-      <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
-      <ai_IsIncendiary>false</ai_IsIncendiary>
-      <explosionDelay>1</explosionDelay>
-      <damageAmountBase>32</damageAmountBase>
-    </projectile>
-  </ThingDef>
+    <!--===== Neopup PAW =====-->
+    <!--===== (__________) =====-->
+    <ThingDef ParentName="BaseBullet">
+      <defName>HRK_Bullet_Neopup</defName>
+      <label>Neopup explosive bullet</label>
+      <graphicData>
+        <texPath>Things/Projectile/Bullet_Big</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <thingClass>Projectile_Explosive</thingClass>
+      <projectile>
+        <speed>62</speed>
+        <damageDef>Bomb</damageDef>
+        <explosionRadius>1</explosionRadius>
+        <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
+        <ai_IsIncendiary>false</ai_IsIncendiary>
+        <explosionDelay>1</explosionDelay>
+        <damageAmountBase>32</damageAmountBase>
+      </projectile>
+    </ThingDef>
 
-  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-    <defName>HRK_Neopup</defName>
-    <label>Neopup</label>
-    <description>The South African semi-automatic light cannon made by Denel. This weird looking firearm shots a custom explosive projectile while behaving more like a rifle than a regular grenade launcher.</description>
-    <graphicData>
-      <texPath>Things/Weapons/HRK_Neopup</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.0</drawSize>
-      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
-      <drawOffsetEast>(0.1, 0.0, 0.0)</drawOffsetEast>
-      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
-      <drawOffsetWest>(-0.1, 0.0, 0.0)</drawOffsetWest>
-    </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <statBases>
-      <WorkToMake>40000</WorkToMake>
-      <Mass>6</Mass>
-      <AccuracyTouch>0.7</AccuracyTouch>
-      <AccuracyShort>0.7</AccuracyShort>
-      <AccuracyMedium>0.7</AccuracyMedium>
-      <AccuracyLong>0.4</AccuracyLong>
-      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel>70</Steel>
-      <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>5</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_Neopup</defaultProjectile>
-        <forcedMissRadius>0.5</forcedMissRadius>
-        <warmupTime>1.2</warmupTime>
-        <range>36</range>
-        <soundCast>HRK_Shot_Neopup</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>10</muzzleFlashScale>
-        <onlyManualCast>false</onlyManualCast>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>12</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>GunHeavy</li>
-    </weaponTags>
-  </ThingDef>
+    <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+      <defName>HRK_Neopup</defName>
+      <label>Neopup</label>
+      <description>The South African semi-automatic light cannon made by Denel. This weird looking firearm shots a custom explosive projectile while behaving more like a rifle than a regular grenade launcher.</description>
+      <graphicData>
+        <texPath>Things/Weapons/HRK_Neopup</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.0</drawSize>
+        <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
+        <drawOffsetEast>(0.1, 0.0, 0.0)</drawOffsetEast>
+        <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
+        <drawOffsetWest>(-0.1, 0.0, 0.0)</drawOffsetWest>
+      </graphicData>
+      <equippedAngleOffset>45</equippedAngleOffset>
+      <soundInteract>Interact_Rifle</soundInteract>
+      <recipeMaker>
+        <recipeUsers>
+          <li>TableMachining</li>
+        </recipeUsers>
+        <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
+        <skillRequirements>
+          <Crafting>6</Crafting>
+        </skillRequirements>
+      </recipeMaker>
+      <statBases>
+        <WorkToMake>40000</WorkToMake>
+        <Mass>6</Mass>
+        <AccuracyTouch>0.7</AccuracyTouch>
+        <AccuracyShort>0.7</AccuracyShort>
+        <AccuracyMedium>0.7</AccuracyMedium>
+        <AccuracyLong>0.4</AccuracyLong>
+        <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+      </statBases>
+      <costList>
+        <Steel>70</Steel>
+        <Chemfuel>10</Chemfuel>
+        <ComponentIndustrial>5</ComponentIndustrial>
+      </costList>
+      <verbs>
+        <li>
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>HRK_Bullet_Neopup</defaultProjectile>
+          <forcedMissRadius>0.5</forcedMissRadius>
+          <warmupTime>1.2</warmupTime>
+          <range>36</range>
+          <soundCast>HRK_Shot_Neopup</soundCast>
+          <soundCastTail>GunTail_Heavy</soundCastTail>
+          <muzzleFlashScale>10</muzzleFlashScale>
+          <onlyManualCast>false</onlyManualCast>
+        </li>
+      </verbs>
+      <tools>
+        <li>
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>12</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+          <label>barrel</label>
+          <capacities>
+            <li>Blunt</li>
+            <li>Poke</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+      </tools>
+      <weaponTags>
+        <li>GunHeavy</li>
+      </weaponTags>
+    </ThingDef>
 
-  <!--===== P90 =====-->
-  <!--===== (_____) =====-->
-  <ThingDef ParentName="BaseBullet">
-    <defName>HRK_Bullet_PNinety</defName>
-    <label>P90 Bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>13</damageAmountBase>
-      <speed>50</speed>
-    </projectile>
-  </ThingDef>
+    <!--===== P90 =====-->
+    <!--===== (_____) =====-->
+    <ThingDef ParentName="BaseBullet">
+      <defName>HRK_Bullet_PNinety</defName>
+      <label>P90 SD Bullet</label>
+      <graphicData>
+        <texPath>Things/Projectile/Bullet_Small</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>13</damageAmountBase>
+        <speed>50</speed>
+      </projectile>
+    </ThingDef>
 
-  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-    <defName>HRK_PNinety</defName>
-    <label>P90</label>
-    <description>High fire rate and mag capacity for a small and weird looking desing. This PDW was made to pierce common body armor during CQC combat situations.</description>
-    <graphicData>
-      <texPath>Things/Weapons/HRK_PNinety</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.0</drawSize>
-    </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_SMG</soundInteract>
-    <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <statBases>
-      <WorkToMake>24000</WorkToMake>
-      <Mass>3.2</Mass>
-      <AccuracyTouch>0.87</AccuracyTouch>
-      <AccuracyShort>0.67</AccuracyShort>
-      <AccuracyMedium>0.37</AccuracyMedium>
-      <AccuracyLong>0.22</AccuracyLong>
-      <RangedWeapon_Cooldown>2.20</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel>50</Steel>
-      <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>4</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_PNinety</defaultProjectile>
-        <warmupTime>0.05</warmupTime>
-        <range>25</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
-        <soundCast>HRK_Shot_PNinety</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
-    <equippedStatOffsets>
-      <HuntingStealth>0.15</HuntingStealth>
-    </equippedStatOffsets>
-  </ThingDef>
+    <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+      <defName>HRK_PNinety</defName>
+      <label>P90 SD</label>
+      <description>High fire rate and mag capacity for a small and weird looking desing. This PDW was made to pierce common body armor during CQC combat situations.</description>
+      <graphicData>
+        <texPath>Things/Weapons/HRK_PNinety</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.0</drawSize>
+      </graphicData>
+      <equippedAngleOffset>45</equippedAngleOffset>
+      <soundInteract>Interact_SMG</soundInteract>
+      <recipeMaker>
+        <recipeUsers>
+          <li>TableMachining</li>
+        </recipeUsers>
+        <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
+        <skillRequirements>
+          <Crafting>6</Crafting>
+        </skillRequirements>
+      </recipeMaker>
+      <statBases>
+        <WorkToMake>24000</WorkToMake>
+        <Mass>3.2</Mass>
+        <AccuracyTouch>0.87</AccuracyTouch>
+        <AccuracyShort>0.67</AccuracyShort>
+        <AccuracyMedium>0.37</AccuracyMedium>
+        <AccuracyLong>0.22</AccuracyLong>
+        <RangedWeapon_Cooldown>2.20</RangedWeapon_Cooldown>
+      </statBases>
+      <costList>
+        <Steel>50</Steel>
+        <Chemfuel>10</Chemfuel>
+        <ComponentIndustrial>4</ComponentIndustrial>
+      </costList>
+      <verbs>
+        <li>
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>HRK_Bullet_PNinety</defaultProjectile>
+          <warmupTime>0.05</warmupTime>
+          <range>25</range>
+          <burstShotCount>3</burstShotCount>
+          <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+          <soundCast>HRK_Shot_PNinety</soundCast>
+          <soundCastTail>GunTail_Medium</soundCastTail>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </li>
+      </verbs>
+      <tools>
+        <li>
+          <label>stock</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+          <label>barrel</label>
+          <capacities>
+            <li>Blunt</li>
+            <li>Poke</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+      </tools>
+      <weaponTags>
+        <li>IndustrialGunAdvanced</li>
+      </weaponTags>
+      <equippedStatOffsets>
+        <HuntingStealth>0.15</HuntingStealth>
+      </equippedStatOffsets>
+    </ThingDef>
 
-  <!--===== KS-23 =====-->
-  <!--===== (_____) =====-->
-  <ThingDef ParentName="BaseBullet">
-    <defName>HRK_Bullet_KSTwentyThree</defName>
-    <label>KS-23 blast</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>25</damageAmountBase>
-      <stoppingPower>3</stoppingPower>
-      <armorPenetrationBase>0.14</armorPenetrationBase>
-      <speed>55</speed>
-    </projectile>
-  </ThingDef>
+    <!--===== KS-23 =====-->
+    <!--===== (_____) =====-->
+    <ThingDef ParentName="BaseBullet">
+      <defName>HRK_Bullet_KSTwentyThree</defName>
+      <label>KS-23 blast</label>
+      <graphicData>
+        <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>25</damageAmountBase>
+        <stoppingPower>3</stoppingPower>
+        <armorPenetrationBase>0.14</armorPenetrationBase>
+        <speed>55</speed>
+      </projectile>
+    </ThingDef>
 
-  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-    <defName>HRK_KSTwentyThree</defName>
-    <label>KS-23</label>
-    <description>Renowned for its large caliber, firing a 23 mm round, is the largest-bore shotgun in use today. The barrel for the KS-23 were made from 23 mm aircraft gun barrels that were rejected due to manufacturing flaws.</description>
-    <graphicData>
-      <texPath>Things/Weapons/HRK_KSTwentyThree</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.0</drawSize>
-    </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Shotgun</soundInteract>
-    <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <statBases>
-      <WorkToMake>10000</WorkToMake>
-      <Mass>3</Mass>
-      <AccuracyTouch>0.90</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.70</AccuracyMedium>
-      <AccuracyLong>0.50</AccuracyLong>
-      <RangedWeapon_Cooldown>1.20</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel>50</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_KSTwentyThree</defaultProjectile>
-        <warmupTime>0.9</warmupTime>
-        <range>14</range>
-        <soundCast>HRK_Shot_KSTwentyThree</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>    
-    <tools>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>SimpleGun</li>
-    </weaponTags>
-  </ThingDef>
+    <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+      <defName>HRK_KSTwentyThree</defName>
+      <label>KS-23</label>
+      <description>Renowned for its large caliber, firing a 23 mm round, is the largest-bore shotgun in use today. The barrel for the KS-23 were made from 23 mm aircraft gun barrels that were rejected due to manufacturing flaws.</description>
+      <graphicData>
+        <texPath>Things/Weapons/HRK_KSTwentyThree</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.0</drawSize>
+      </graphicData>
+      <equippedAngleOffset>45</equippedAngleOffset>
+      <soundInteract>Interact_Shotgun</soundInteract>
+      <recipeMaker>
+        <recipeUsers>
+          <li>TableMachining</li>
+        </recipeUsers>
+        <researchPrerequisite>Gunsmithing</researchPrerequisite>
+        <skillRequirements>
+          <Crafting>5</Crafting>
+        </skillRequirements>
+      </recipeMaker>
+      <statBases>
+        <WorkToMake>10000</WorkToMake>
+        <Mass>3</Mass>
+        <AccuracyTouch>0.90</AccuracyTouch>
+        <AccuracyShort>0.80</AccuracyShort>
+        <AccuracyMedium>0.70</AccuracyMedium>
+        <AccuracyLong>0.50</AccuracyLong>
+        <RangedWeapon_Cooldown>1.20</RangedWeapon_Cooldown>
+      </statBases>
+      <costList>
+        <Steel>50</Steel>
+        <ComponentIndustrial>3</ComponentIndustrial>
+      </costList>
+      <verbs>
+        <li>
+          <verbClass>Verb_Shoot</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>HRK_Bullet_KSTwentyThree</defaultProjectile>
+          <warmupTime>0.9</warmupTime>
+          <range>14</range>
+          <soundCast>HRK_Shot_KSTwentyThree</soundCast>
+          <soundCastTail>GunTail_Heavy</soundCastTail>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </li>
+      </verbs>
+      <tools>
+        <li>
+          <label>barrel</label>
+          <capacities>
+            <li>Blunt</li>
+            <li>Poke</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>2</cooldownTime>
+        </li>
+      </tools>
+      <weaponTags>
+        <li>SimpleGun</li>
+      </weaponTags>
+    </ThingDef>
 
-</Defs>
+  </Defs>

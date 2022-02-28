@@ -26,11 +26,7 @@
     <graphicData>
       <texPath>Things/Weapons/HRK_AShTwelve</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.1</drawSize>
-      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
-      <drawOffsetEast>(0.5, 0.0, 0.0)</drawOffsetEast>
-      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
-      <drawOffsetWest>(-0.5, 0.0, 0.0)</drawOffsetWest>
+      <drawSize>1.1</drawSize>      
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>

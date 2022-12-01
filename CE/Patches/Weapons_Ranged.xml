@@ -17,8 +17,7 @@
 					defName = "HRK_GMSix" or
 					defName = "HRK_GThirtySix" or
                     defName = "HRK_HKGL" or
-                    defName = "HRK_SKS" or
-                    defName = "HRK_NGFive" or
+                    defName = "HRK_SKS" or                    
                     defName = "HRK_MThreeEOne" or
                     defName = "HRK_Neopup" or
                     defName = "HRK_PNinety" or				                   
@@ -322,7 +321,7 @@
                     </weaponTags>
                 </li>
 
-                <!--===== Negev =====-->
+                <!--===== Negev =====
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>HRK_NGFive</defName>
                     <statBases>
@@ -365,7 +364,7 @@
                     <weaponTags>
                         <li>CE_MachineGun</li>
                     </weaponTags>
-                </li>
+                </li>-->
 
                 <!-- ========== M3E1 "Carl Gustaf" ========== -->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">

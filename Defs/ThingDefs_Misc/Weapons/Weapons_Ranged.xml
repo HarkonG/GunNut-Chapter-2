@@ -399,7 +399,7 @@
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_HKGL</defName>
     <label>M320 GL </label>
-    <description>Single-shot 40 mm grenade launcher made as a replacement for the older M203. This M320 comes on the stan-alone configuration allowing to be used as a explosive sidearm.</description>
+    <description>Single-shot 40 mm grenade launcher made as a replacement for the older M203. This M320 comes on the standalone configuration allowing to be used as a explosive sidearm.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_HKGL</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -559,7 +559,7 @@
   </ThingDef>
 
   <!--===== Negev =====-->
-  <!--===== Lighter, fast firing LMG =====-->
+  <!--===== Lighter, fast firing LMG =====
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_NGFive</defName>
     <label>NG5 Negev bullet</label>
@@ -649,7 +649,7 @@
       <li>GunHeavy</li>
       <li>Bipod_SAW</li>
     </weaponTags>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--===== M3E1 "Carl Gustaf" =====-->
   <!--===== (__________) =====-->

@@ -17,10 +17,6 @@
                     <min>34.2941</min>
                     <max>40.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -42,10 +38,6 @@
                     <min>34.2941</min>
                     <max>40.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -67,10 +59,6 @@
                     <min>34.2941</min>
                     <max>40.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -92,15 +80,11 @@
                     <min>34.2941</min>
                     <max>40.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
     </SoundDef>
-    
+
     <SoundDef>
         <defName>HRK_Shot_SSMG</defName>
         <context>MapOnly</context>
@@ -117,10 +101,6 @@
                     <min>34.2941</min>
                     <max>40.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -142,10 +122,6 @@
                     <min>34.2941</min>
                     <max>40.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -167,10 +143,6 @@
                     <min>34.2941</min>
                     <max>40.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -192,14 +164,10 @@
                     <min>34.2941</min>
                     <max>40.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>    
+    </SoundDef>
 
     <SoundDef>
         <defName>HRK_Shot_MThreeEOne</defName>
@@ -217,10 +185,6 @@
                     <min>34.2941</min>
                     <max>40.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -242,35 +206,6 @@
                     <min>34.2941</min>
                     <max>40.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
-    
-    <SoundDef>
-        <defName>HRK_Shot_KSTwentyThree</defName>
-        <context>MapOnly</context>
-        <eventNames />
-        <maxSimultaneous>1</maxSimultaneous>
-        <subSounds>
-            <li>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Shot_KSTwentyThree</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -292,10 +227,6 @@
                     <min>34.2941</min>
                     <max>40.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>

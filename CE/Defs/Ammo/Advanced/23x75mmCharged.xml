@@ -12,7 +12,7 @@
 
   <CombatExtended.AmmoSetDef>
     <defName>AmmoSet_23x75mmCharged</defName>
-    <label>12 Gauge Charged</label>
+    <label>23x75mm Charged</label>
     <ammoTypes>
       <Ammo_23x75mmCharged>Bullet_23x75mmCharged</Ammo_23x75mmCharged>
       <Ammo_23x75mmCharged_Slug>Bullet_23x75mmCharged_Slug</Ammo_23x75mmCharged_Slug>

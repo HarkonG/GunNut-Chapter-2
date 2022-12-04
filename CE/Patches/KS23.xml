@@ -197,9 +197,6 @@
                         <ammoSet>AmmoSet_23x75mmCharged</ammoSet>
                     </AmmoUser>
                     <FireModes />
-                    <weaponTags>
-                        <li>CE_AI_AssaultWeapon</li>
-                    </weaponTags>
                 </li>
 
             </operations>

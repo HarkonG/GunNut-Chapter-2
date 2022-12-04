@@ -257,7 +257,6 @@
             <li>ShortShots</li>
         </weaponClasses>
         <weaponTags>
-            <li>ShortShots</li>
             <li>SpacerGun</li>
         </weaponTags>
     </ThingDef>

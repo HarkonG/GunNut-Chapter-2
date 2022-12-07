@@ -116,9 +116,12 @@
                         <reloadTime>0.85</reloadTime>
                         <ammoSet>AmmoSet_23x75mmR</ammoSet>
                     </AmmoUser>
-                    <FireModes />
+                    <FireModes>
+                        <aiAimMode>Snapshot</aiAimMode>
+                    </FireModes>
                     <weaponTags>
                         <li>CE_AI_AssaultWeapon</li>
+                        <li>CE_AI_BROOM</li>
                     </weaponTags>
                 </li>
 
@@ -156,9 +159,12 @@
                         <reloadTime>0.85</reloadTime>
                         <ammoSet>AmmoSet_23x75mmR</ammoSet>
                     </AmmoUser>
-                    <FireModes />
+                    <FireModes>
+                        <aiAimMode>Snapshot</aiAimMode>
+                    </FireModes>
                     <weaponTags>
                         <li>CE_AI_AssaultWeapon</li>
+                        <li>CE_AI_BROOM</li>
                     </weaponTags>
                 </li>
 
@@ -196,7 +202,9 @@
                         <reloadTime>0.85</reloadTime>
                         <ammoSet>AmmoSet_23x75mmCharged</ammoSet>
                     </AmmoUser>
-                    <FireModes />
+                    <FireModes>
+                        <aiAimMode>Snapshot</aiAimMode>
+                    </FireModes>
                 </li>
 
             </operations>

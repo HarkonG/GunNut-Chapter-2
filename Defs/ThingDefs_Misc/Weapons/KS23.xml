@@ -256,7 +256,7 @@
             <li>RangedHeavy</li>
             <li>ShortShots</li>
         </weaponClasses>
-        <weaponTags>
+        <weaponTags Inherit="False">
             <li>SpacerGun</li>
         </weaponTags>
     </ThingDef>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Advanced Industrial CE Guns Addon</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="Ex_FNP90_gun"]</xpath>
+                </li>               
+            </operations>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Sam's Power Creep Armory!</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="PCA_Gun_Lynx" or defName="PCA_Gun_PNinety"]</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

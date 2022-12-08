@@ -92,11 +92,11 @@
                         <SwayFactor>1.23</SwayFactor>
                         <Bulk>6.50</Bulk>
                         <SightsEfficiency>1</SightsEfficiency>
-                        <WorkToMake>9500</WorkToMake>
+                        <WorkToMake>13500</WorkToMake>
                     </statBases>
                     <costList>
-                        <Steel>30</Steel>
-                        <Chemfuel>10</Chemfuel>
+                        <Steel>45</Steel>
+                        <Chemfuel>5</Chemfuel>
                         <ComponentIndustrial>1</ComponentIndustrial>
                     </costList>
                     <Properties>
@@ -120,7 +120,6 @@
                         <aiAimMode>Snapshot</aiAimMode>
                     </FireModes>
                     <weaponTags>
-                        <li>CE_AI_AssaultWeapon</li>
                         <li>CE_AI_BROOM</li>
                     </weaponTags>
                 </li>
@@ -135,10 +134,10 @@
                         <SwayFactor>1.43</SwayFactor>
                         <Bulk>10.40</Bulk>
                         <SightsEfficiency>1</SightsEfficiency>
-                        <WorkToMake>9500</WorkToMake>
+                        <WorkToMake>13000</WorkToMake>
                     </statBases>
                     <costList>
-                        <Steel>30</Steel>
+                        <Steel>55</Steel>
                         <Chemfuel>10</Chemfuel>
                         <ComponentIndustrial>1</ComponentIndustrial>
                     </costList>
@@ -163,7 +162,6 @@
                         <aiAimMode>Snapshot</aiAimMode>
                     </FireModes>
                     <weaponTags>
-                        <li>CE_AI_AssaultWeapon</li>
                         <li>CE_AI_BROOM</li>
                     </weaponTags>
                 </li>
@@ -178,12 +176,13 @@
                         <SwayFactor>1.30</SwayFactor>
                         <Bulk>3.60</Bulk>
                         <SightsEfficiency>1.1</SightsEfficiency>
-                        <WorkToMake>9500</WorkToMake>
+                        <WorkToMake>31500</WorkToMake>
                     </statBases>
                     <costList>
-                        <Steel>30</Steel>
+                        <Plasteel>45</Plasteel>
+                        <Steel>50</Steel>
                         <Chemfuel>10</Chemfuel>
-                        <ComponentIndustrial>1</ComponentIndustrial>
+                        <ComponentIndustrial>6</ComponentIndustrial>
                     </costList>
                     <Properties>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -205,6 +204,9 @@
                     <FireModes>
                         <aiAimMode>Snapshot</aiAimMode>
                     </FireModes>
+                    <weaponTags>
+                        <li>CE_AI_BROOM</li>
+                    </weaponTags>
                 </li>
 
             </operations>

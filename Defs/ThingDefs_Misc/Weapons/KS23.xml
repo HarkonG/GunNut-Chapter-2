@@ -29,6 +29,7 @@
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>HRK_Interact_FastPump_a</soundInteract>
+        <generateCommonality>0.5</generateCommonality>
         <recipeMaker>
             <recipeUsers>
                 <li>TableMachining</li>
@@ -104,6 +105,7 @@
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>HRK_Interact_FastPump_a</soundInteract>
+        <generateCommonality>0.5</generateCommonality>
         <recipeMaker>
             <recipeUsers>
                 <li>TableMachining</li>
@@ -199,6 +201,7 @@
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_ChargeLance</soundInteract>
+        <generateCommonality>0.5</generateCommonality>
         <recipeMaker>
             <recipeUsers Inherit="False">
                 <li>FabricationBench</li>
@@ -256,8 +259,9 @@
             <li>RangedHeavy</li>
             <li>ShortShots</li>
         </weaponClasses>
-        <weaponTags Inherit="False">
+        <weaponTags>
             <li>SpacerGun</li>
+            <li>ShortShots</li>
         </weaponTags>
     </ThingDef>
 

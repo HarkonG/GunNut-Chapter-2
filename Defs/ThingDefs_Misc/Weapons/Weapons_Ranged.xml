@@ -29,7 +29,7 @@
       <drawSize>1.1</drawSize>      
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Rifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>    
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -222,6 +222,7 @@
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.3</generateCommonality>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -687,6 +688,7 @@
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.2</generateCommonality>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -778,6 +780,7 @@
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.3</generateCommonality>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>

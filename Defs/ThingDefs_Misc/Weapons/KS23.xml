@@ -28,7 +28,7 @@
             <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
-        <soundInteract>HRK_Interact_FastPump_a</soundInteract>
+        <soundInteract>Interact_Shotgun</soundInteract>
         <generateCommonality>0.5</generateCommonality>
         <recipeMaker>
             <recipeUsers>
@@ -104,7 +104,7 @@
             <drawSize>1.1</drawSize>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
-        <soundInteract>HRK_Interact_FastPump_a</soundInteract>
+        <soundInteract>Interact_Shotgun</soundInteract>
         <generateCommonality>0.5</generateCommonality>
         <recipeMaker>
             <recipeUsers>

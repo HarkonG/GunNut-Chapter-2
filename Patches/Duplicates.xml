@@ -9,10 +9,6 @@
                 <xpath>Defs/ThingDef[defName="PCA_Gun_Lynx" or defName="PCA_Gun_PNinety"]</xpath>
             </li>
 
-            <li Class="PatchOperationRemove" MayRequire="al9000.ceadvancedindustrial">
-                <xpath>Defs/ThingDef[defName="Ex_FNP90_gun"]</xpath>
-            </li>
-
         </operations>
     </Operation>
 

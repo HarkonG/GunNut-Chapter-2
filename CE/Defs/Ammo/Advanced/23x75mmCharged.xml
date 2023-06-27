@@ -80,7 +80,7 @@
 
   <!-- ================== Projectiles ================== -->
 
-  <ThingDef Name="Base23x75mmChargedBullet" ParentName="BaseBullet" Abstract="true">
+  <ThingDef Name="Base23x75mmChargedBullet" ParentName="BaseBulletCE" Abstract="true">
     <graphicData>
       <texPath>Things/Projectile/Charged/ChargeShot</texPath>
       <graphicClass>Graphic_Single</graphicClass>

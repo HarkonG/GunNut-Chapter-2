@@ -3,7 +3,7 @@
 <SoundDef>
         <defName>HRK_SFX_Bomb</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
